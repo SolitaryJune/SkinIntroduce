@@ -15,4 +15,4 @@ weight: 830
 
 ### 一键转系统
 
-点击跳转[一键转系统）](https://skin.gushao.club/public_service/SkinConversion/index.html) 。
+点击跳转[一键转系统）](https://skin.gushao.club/docs/public_service/SkinConversion/index.html) 。

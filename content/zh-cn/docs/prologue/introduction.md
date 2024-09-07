@@ -27,11 +27,11 @@ toc: true
 
 ## 额外服务（打前景，一键转logo）
 
-额外服务跳转。 [使用打标机（皮肤作者版） →]({{% relref "extra_service" %}})
+额外服务跳转。 [额外服务） →]({{% relref "extra_service" %}})
 
 ## 公益服务（转系统，加密，打前景，黑名单查询）
 
-公益服务跳转。 [使用打标机（皮肤作者版） →]({{% relref "public_service" %}})
+公益服务跳转。 [公益服务 →]({{% relref "public_service" %}})
 
 ## 关于我们
 
