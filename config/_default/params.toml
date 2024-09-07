@@ -63,7 +63,7 @@ docsRepo = "https://github.com/SolitaryJune/SkinIntroduce"
 editPage = true
 
 # Contributors
-githubContributors = true
+githubContributors = false
 githubUser = "GuShao's Skin"
 githubRepo = "GuShao's Skin"
 githubDocRepo = "solitaryjune.github.io"

@@ -5,27 +5,34 @@
   url = "/docs/prologue/"
 
 [[docs]]
-  name = "文章精选"
+  name = "获取|使用皮肤"
   weight = 20
-  identifier = "article"
-  url = "/docs/article/"
+  identifier = "mark_use"
+  url = "/docs/mark_use/"
 
 [[docs]]
-  name = "关于我们"
+  name = "上传|使用皮肤/打标"
   weight = 30
-  identifier = "about"
-  url = "/docs/about/"
+  identifier = "mark_user"
+  url = "/docs/mark_user/"
+
+[[docs]]
+  name = "额外功能|Logo/前景等"
+  weight = 30
+  identifier = "extra_service"
+  url = "/docs/extra_service/"
+
+[[docs]]
+  name = "公益功能|加密/转系统等"
+  weight = 30
+  identifier = "public_service"
+  url = "/docs/public_service/"
 
 [[docs]]
   name = "帮助"
   weight = 60
   identifier = "help"
   url = "/docs/help/"
-
-[[main]]
-  name = "文章精选"
-  url = "/docs/article/"
-  weight = 10
 
 [[main]]
   name = "关于我们"
