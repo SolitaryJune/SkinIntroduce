@@ -1,7 +1,7 @@
 ---
-title : "XiuXin"
-description: "线上心理咨询《修欣(心)》"
-lead: "一款好用的线上心理平台——《修欣(心)》"
+title: "孤傲皮肤服务"
+description: "皮肤服务"
+lead: "一款好用的线上皮肤服务——一键换logo|公益转系统|一键打前景|一键加密|一键打标|黑名单查询"
 # date: 2021-08-19T08:47:36+00:00
 # lastmod: 2021-08-19T08:47:36+00:00
 draft: false
@@ -9,16 +9,25 @@ images: []
 # license: "以 AGPL-3.0 协议开源。"
 getStarted: 'docs/prologue/introduction'
 features: 
-- title: 前言
-  description: 党的十八大以来，以习近平同志为核心的党中央高度重视学生心理健康工作，习近平总书记对学生心理健康教育作出了系列重要批示指示，为做好新时代高校学生心理健康教育工作提供了根本遵循。
-- title: 我们是什么 ⚡️
-  description: 《修欣(心)》是一款线上心理咨询平台，旨在为用户提供方便、隐私的心理支持和咨询服务。我们的目标是帮助用户改善心理健康、缓解压力、解决问题，并提供专业的心理咨询和指导。
-- title: 我们的宗旨
-  description: 通过《修欣(心)》，我们希望能够推动心理健康的普及和关注，减少心理健康问题的社会负担，相信通过在线平台的便利性和可及性，更多的人将能够寻求心理支持，改善生活质量。我们不只是在创造产品，更是在为人们的生活增添一份魔力。
-# - title: 多出站负载均衡和分流
-#   description: v2rayA 允许用户创建和连接多个出站节点，以实现负载均衡及分流。
-# - title: 不想搭建？想直接上手？
-#   description: "[省钱研究所](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=36VSNgNsCaGc24aL1xGaUUxKRxmfpMQ9&authKey=i2dncJRiqcU7LwxlzMKwH4A5q89TK%2F0bisURqK2PoqaJ2ASpwQAbBHs6U0iaqP9z&noverify=0&group_code=1029597004) 是 JuneOver24 专为 懒人 搭建的一站式服务，直接食用即可。"
-# - title: 多种策略应对 DNS 污染
-#   description: v2rayA 提供多种策略应对 DNS 污染，高级设置可为用户提供更多的客制化定义。
+- title: 打标卡密
+  description: >
+    支持阿奇索等发卡平台，强效验真实性不可乱填（双拼价格为 40 元，直购价格为 45 元）。赠送一键换 Logo 功能。
+- title: 打标机器人
+  description: >
+    机器人支持 QQ ，微信以及公众号，直购价格为 120 元，十拼价格为 100 元。支持打标手机号版本价格为150元，十拼价格为 130 元。赠送一键换 Logo 功能，打标卡密，自动打前景。打标后自动加密支持苹果无法拆包，安卓支持空包（安卓空包电脑360压缩无法解开）。全网最强打标方案。
+- title: 一键换 Logo
+  description: >
+    一键换 Logo 功能现已完成，单独购买价格为 15 元。
+- title: 自动打前景
+  description: >
+    自动打前景功能，方便快捷。部分功能免费，导入til功能为购入打标机专属。
+- title: 一键加密
+  description: >
+    一键加密有免费版本和付费版本，付费版本只能Android使用，付费加密支持苹果无法拆包，安卓支持空包（安卓空包电脑360压缩无法解开）。
+- title: 黑名单服务
+  description: >
+    打标服务中包含黑名单功能。若用户上了黑名单，将无法使用任何打标服务。
+- title: 卡密查询
+  description: >
+    支持通过卡密查询对应的标记，并提供自助查标功能。
 ---
