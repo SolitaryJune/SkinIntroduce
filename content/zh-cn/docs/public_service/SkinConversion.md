@@ -13,7 +13,6 @@ toc: true
 weight: 830
 ---
 
-### 注：皮肤上传分为QQ，WX，公众号三个平台
+### 一键转系统
 
 点击跳转[一键转系统）](https://skin.gushao.club/public_service/SkinConversion/index.html) 。
-
