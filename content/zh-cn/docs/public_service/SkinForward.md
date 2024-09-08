@@ -1,5 +1,5 @@
 ---
-title : "打前景"
+title : "打前景Free"
 description: "作者 ｜ 孤傲"
 lead: "作者 ｜ 孤傲"
 date: 2021-08-19T08:49:31+00:00
@@ -13,6 +13,8 @@ toc: true
 weight: 830
 ---
 
-### 打前景
+### 打前景Free
 
-点击跳转[打前景](https://skinprospect.gushao.club) 。
+打前景Pro，支持导入til[打前景Pro](https://skinprospect.gushao.club) 。
+
+点击跳转[打前景Free](https://skinprospect.gushao.club) 。
