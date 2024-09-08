@@ -8,11 +8,11 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "public_service"
+    parent: "extra_service"
 toc: true
 weight: 830
 ---
 
 ### 皮肤加密Pro
 
-如果你想要加密性能更强，欢迎使用[皮肤加密Pro](https://skinqj.gushao.club)。
+欢迎使用[皮肤加密Pro](https://skin.gushao.club/docs/extra_service/SkinEncryptPro/index.html)。
