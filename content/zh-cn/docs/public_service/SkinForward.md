@@ -15,4 +15,4 @@ weight: 830
 
 ### 打前景
 
-点击跳转[打前景](https://skinqj.gushao.club) 。
+点击跳转[打前景](https://skinprospect.gushao.club) 。
