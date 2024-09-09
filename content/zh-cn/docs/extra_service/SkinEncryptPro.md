@@ -16,3 +16,9 @@ weight: 830
 ### 皮肤加密Pro
 
 欢迎使用[皮肤加密Pro](https://skin.gushao.club/docs/extra_service/SkinEncryptPro/index.html)。
+
+## 教程
+
+1️⃣获取卡密密钥（WX关注“JuneOver24”公众号发送“卡密登录”）
+
+2️⃣进入网站
