@@ -15,4 +15,4 @@ weight: 830
 
 ### 打前景Pro，支持导入til
 
-点击跳转[打前景Pro](https://skinprospect.gushao.club) 。
+点击跳转[打前景Pro](https://skin.gushao.club/docs/extra_service/SkinForward/index.html) 。
