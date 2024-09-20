@@ -1,5 +1,5 @@
 ---
-title : "皮肤加密Pro"
+title : "一键换Logo"
 description: "作者 ｜ 孤傲"
 lead: "作者 ｜ 孤傲"
 date: 2021-08-19T08:49:31+00:00
@@ -13,9 +13,9 @@ toc: true
 weight: 830
 ---
 
-### 皮肤加密Pro（此功能定价20r永久）
+### 一键换Logo
 
-欢迎使用[皮肤加密Pro](https://skin.gushao.club/docs/extra_service/SkinEncryptPro/)。
+点击跳转[一键换Logo](https://skinlogo.gushao.club) 。
 
 交流群[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。
 
@@ -27,6 +27,6 @@ weight: 830
 
 ## 购买
 
-购买链接，没有优惠码就不填写[皮肤加密Pro](https://shop.gushao.club/buy/21)。
+购买链接，没有优惠码就不填写[一键换Logo](https://shop.gushao.club/buy/20)。
 
 ### 注：此功能为自动授权，购买后即可使用！
