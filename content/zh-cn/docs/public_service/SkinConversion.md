@@ -17,4 +17,4 @@ weight: 830
 
 点击跳转[一键转系统）](https://skin.gushao.club/docs/public_service/SkinConversion/) 。
 
-授权[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。
+授权[点击：](https://skin.gushao.club/docs/public_service/)。

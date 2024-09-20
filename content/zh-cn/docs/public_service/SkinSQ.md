@@ -1,5 +1,5 @@
 ---
-title : "自助授权Free"
+title : "自助授权"
 description: "作者 ｜ 孤傲"
 lead: "作者 ｜ 孤傲"
 date: 2021-08-19T08:49:31+00:00
