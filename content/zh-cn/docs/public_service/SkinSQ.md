@@ -15,17 +15,17 @@ weight: 830
 
 ### 自助授权
 
-自助授权网站[自助授权](https://shop.gushao.club/buy/21)。
+自助授权网站[自助授权点我](https://shop.gushao.club/buy/21)。
 
-首先向公众号**JuneOver24**发送**卡密登录**
+首先向公众号 **JuneOver24** 发送 **卡密登录**
 
 ![获取卡密](https://skin.gushao.club/docs/public_service/SkinSQ/image.png)
 
-如**NGcyMjg0LGR1NjB4NkYZb045ElV1eSlQNm02HEp6eWQXA2UfGkIfN3hPDJ==**就是你的卡密
+如 **NGcyMjg0LGR1NjB4NkYZb045ElV1eSlQNm02HEp6eWQXA2UfGkIfN3hPDJ==** 就是你的卡密
 
 在网站输入你的卡密和邮箱地址
 
-建议**QQ邮箱:**格式为**你的QQ@qq.com**
+建议 **QQ邮箱:** 格式为你的 **QQ@qq.com**
 
 ## 注：转系统和加密Free只用授权一次即可，通用
 
