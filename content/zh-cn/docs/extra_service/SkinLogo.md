@@ -17,6 +17,8 @@ weight: 830
 
 点击跳转[一键换Logo](https://skinlogo.gushao.club) 。
 
+一键换logo支持切片、合成切片。输入（上传）要命名的文件名字，输出多张名字不同但内容相同的图片。
+
 交流群[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。
 
 ## 教程

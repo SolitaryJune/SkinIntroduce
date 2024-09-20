@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>文件加密</title>
+    <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.13.2/dist/av-min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <style>
         body {
@@ -157,17 +158,17 @@
     <h1>文件上传加密</h1>
     <p class="subtitle">如果你想要加密性能更强，欢迎使用<a href="https://skin.gushao.club/docs/extra_service/skinencryptpro/">>加密Pro</a>（支持IOS和Android）</p>
     <p class="subtitle">
-        一键换logo已经写完，单购15。购入打标机器人支持QQ、微信（直购120，十拼100），或者打标卡密支持阿奇索等发卡平台。强效验真实性不可乱填（双拼40，直购45），赠送一键换logo。
+        <a href="https://skin.gushao.club/docs/extra_service/">>一键换logo</a><a href="https://skin.gushao.club/docs/mark_user/">>打标机器人 | 打标卡密</a>
     </p>
     <p class="subtitle">
-        注：打标（全网最强打标）均有黑名单服务，上黑名单后无法使用任何服务。加密支持苹果无法拆包，安卓支持空包（安卓空包电脑360压缩无法解开）。卡密支持通过卡密查询对应标记，支持自助查标，均支持批量多文件单标和批量获取打标。
+        注：打标均有黑名单服务，上黑名单后无法使用任何服务。<a href="https://skin.gushao.club/docs/extra_service/skinencryptpro/">>加密Pro</a>支持苹果无法拆包，安卓支持空包（安卓空包电脑360压缩无法解开）。卡密支持通过卡密查询对应标记，支持自助查标，均支持批量多文件单标和批量获取打标。
     </p>
     <p class="subtitle">
-        一键换logo支持切片、合成切片。输入（上传）要命名的文件名字，输出多张名字不同但内容相同的图片。
+        如何免费授权？<a href="https://skin.gushao.club/docs/public_service/">>点我</a>
     </p>
     <form id="uploadForm">
-        <label for="timestampInput">输入加密密钥：</label>
-        <input type="text" id="timestampInput" placeholder="输入加密密钥（扫码关注下方公众号发送“密钥获取）" />
+        <label for="timestampInput">输入加密密钥（扫码关注下方公众号发送“卡密登陆"）：</label>
+        <input type="text" id="timestampInput" placeholder="输入加密卡密"/>
         <label for="fileInput">选择文件上传：</label>
         <input type="file" id="fileInput" />
         <button type="submit">开始处理文件</button>

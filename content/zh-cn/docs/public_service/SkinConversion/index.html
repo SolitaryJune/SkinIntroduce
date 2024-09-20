@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>皮肤一键转系统</title>
+    <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.13.2/dist/av-min.js"></script>
     <!-- 引入谷歌字体 -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- 引入Font Awesome图标库 -->
@@ -159,8 +160,10 @@
 <body>
     <div class="container">
         <h1><i class="fas fa-magic"></i> 一键转系统</h1>
-        <p class="subtitle">目前适配：林乐妍 | 如果你是底包作者，欢迎联系我适配（贴纸底包似乎通用？）</p>
-        
+        <p class="subtitle">目前适配：林乐妍 | 通用贴纸底包 如果你是底包作者，欢迎联系我适配</p>
+        <p class="subtitle">
+            如何免费授权？<a href="https://skin.gushao.club/docs/public_service/">>点我</a>
+        </p>
         <div class="file-input">
             <label for="fileInput" class="custom-file-label"><i class="fas fa-upload"></i> 选择文件</label>
             <input type="file" id="fileInput">
@@ -168,13 +171,13 @@
 
 
         <div class="code-input">
-            <label for="encryptedCode">请输入密钥（扫描下方二维码发送“密钥获取”）：</label>
+            <label for="encryptedCode">请输入密钥（扫描下方二维码发送“卡密登陆”）：</label>
             <input type="text" id="encryptedCode">
         </div>
 
 
         <div class="checkbox-group">
-            <label for="encryptCheckbox"><input type="checkbox" id="encryptCheckbox"> 启用加密(下架了勿勾选)</label>
+            <label for="encryptCheckbox" style="display: none;"><input type="checkbox" id="encryptCheckbox"> 启用加密(下架了勿勾选)</label>
             <label for="stickerBaseCheckbox"><input type="checkbox" id="stickerBaseCheckbox"> 勾选贴纸底包</label>
         </div>
 
