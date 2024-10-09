@@ -13,7 +13,7 @@ toc: true
 weight: 830
 ---
 
-### 皮肤加密Pro（此功能定价20r永久）
+### 皮肤加密Pro（此功能定价35r永久）
 
 欢迎使用[皮肤加密Pro](https://skin.gushao.club/docs/extra_service/SkinEncryptPro/)。
 
