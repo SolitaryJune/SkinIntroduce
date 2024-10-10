@@ -13,7 +13,7 @@ toc: true
 weight: 830
 ---
 
-### 皮肤加密Free
+### 皮肤加密Pro
 
 如果你想要加密性能更强，欢迎使用[皮肤加密Pro](https://skin.gushao.club/docs/extra_service/skinencryptpro/) 。
 
@@ -23,6 +23,8 @@ weight: 830
 | --- | -------------  |:--:|:--:|
 | Pro |   更强的加密性能 | ✔ | ✔ |
 | Free |   ✔ | ❌ | ❌ |
+
+### 皮肤加密Free
 
 点击跳转[皮肤加密Free](https://skin.gushao.club/docs/public_service/SkinEncrypt/) 。
 
