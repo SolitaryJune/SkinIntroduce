@@ -13,9 +13,13 @@ toc: true
 weight: 830
 ---
 
-### 注：手动打标为额外功能（10r）
+### 注：手动打标为额外功能（13r）
 
 手动打标分为“批量打标”和“单个打标”，请**私聊Bot使用**！不建议在群里发起！
+
+## 在线打标
+
+欢迎使用[在线上传文件打标](https://skin.gushao.club/docs/extra_service/skinuploadhand/)。
 
 ## 批量打标
 
