@@ -13,8 +13,6 @@ toc: true
 weight: 830
 ---
 
-### 限免测试3天
-
 ### 在线上传文件打标（此功能定价60r永久，已经购入打标机器人版本价格为13r）
 
 欢迎使用[在线上传文件打标](https://skin.gushao.club/docs/extra_service/SkinUploadHand/)。
@@ -33,4 +31,4 @@ weight: 830
 
 ## 购买
 
-购买链接，没有优惠码就不填写[暂无购买渠道](https://shop.gushao.club/buy/22)。
+购买链接，没有优惠码就不填写[在线上传文件打标](https://shop.ikxiuxin.com/buy/23)。
