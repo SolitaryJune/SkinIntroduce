@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>文件加密</title>
+    <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.13.2/dist/av-min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -34,7 +35,9 @@
 
       input[type="file"],
       select,
-      textarea {
+      textarea,
+      input[type="text"],
+      input[type="password"] {
         width: 100%;
         padding: 10px;
         margin-bottom: 15px;
@@ -94,9 +97,23 @@
   </head>
   <body>
     <h1>文件上传加密</h1>
-    <form id="uploadForm">
+
+    <!-- 登录表单 -->
+    <form id="loginForm">
+      <label for="timestampInput">密钥：</label>
+      <input type="text" id="timestampInput" name="timestampInput" required />
+      <button type="button" onclick="verifyKey()">验证密钥</button>
+    </form>
+
+    <!-- 文件上传表单，默认隐藏 -->
+    <form id="uploadForm" style="display: none">
       <label for="upload_type">上传类型：</label>
-      <select id="upload_type" name="upload_type" required onchange="toggleInputFields()">
+      <select
+        id="upload_type"
+        name="upload_type"
+        required
+        onchange="toggleInputFields()"
+      >
         <option value="single">打标（支持批量）</option>
         <option value="batch">批量发送到邮箱</option>
       </select>
