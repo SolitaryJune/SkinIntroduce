@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>文件加密</title>
+    <title>在线上传打标</title>
     <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.13.2/dist/av-min.js"></script>
     <link
       rel="stylesheet"
@@ -138,14 +138,16 @@
       <label for="file">选择文件上传：</label>
       <input type="file" id="file" name="file" required />
       <button type="button" onclick="uploadFile()">开始处理文件</button>
+
       <!-- 加载动画 -->
       <div id="loading-spinner"></div>
     </form>
 
     <div id="result"></div>
-
     <script type="text/javascript">
-      document.write("<script src='script.js?" + Math.random() + "'><\/script>");
-  </script>
+      document.write(
+        "<script src='script.js?" + Math.random() + "'><\/script>"
+      );
+    </script>
   </body>
 </html>

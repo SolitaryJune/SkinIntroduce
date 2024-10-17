@@ -13,7 +13,7 @@ toc: true
 weight: 830
 ---
 
-### 在线上传文件打标（此功能定价60r永久，已经购入打标机器人版本价格为13r）
+### 在线上传文件打标（此功能定价60r永久，已经购入打标机器人版本价格为15r）
 
 欢迎使用[在线上传文件打标](https://skin.gushao.club/docs/extra_service/SkinUploadHand/)。
 
