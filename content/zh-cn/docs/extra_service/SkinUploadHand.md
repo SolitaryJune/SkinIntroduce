@@ -17,7 +17,7 @@ weight: 830
 
 欢迎使用[在线上传文件打标](https://skin.gushao.club/docs/extra_service/SkinUploadHand/)。
 
-打标后将自动加密
+支持皮肤（打标后将自动加密）、图片素材。支持单邮箱批量打标，多邮箱一对一推送。（无限制）
 
 交流群[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。
 
