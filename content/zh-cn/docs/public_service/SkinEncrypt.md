@@ -26,6 +26,6 @@ weight: 830
 
 ### 皮肤加密Free
 
-点击跳转[皮肤加密Free](https://skin.gushao.club/docs/public_service/SkinEncrypt/) 。
+点击跳转[皮肤加密Free](https://skin-api-en.gushao.club/en) 。
 
 授权[点击：](https://skin.gushao.club/docs/public_service/)。
