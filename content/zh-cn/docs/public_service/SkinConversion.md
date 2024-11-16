@@ -15,7 +15,7 @@ weight: 830
 
 ### 一键转系统
 
-注意，该功能因为一直遭受攻击已经下架，请使用[转系统Pro](https://skin.gushao.club/docs/extra_service/skinConversionpro/) 。
+注意，该功能因为一直遭受攻击已经下架，请使用[转系统Pro](https://skin.gushao.club/docs/extra_service/skinconversionpro/) 。
 
 ### 注意，该功能因为一直遭受攻击已经下架
 

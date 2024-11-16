@@ -8,17 +8,15 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "public_service"
+    parent: "extra_service"
 toc: true
 weight: 830
 ---
 
-### 注：此功能为加密Pro专属，购买加密Pro后可立刻使用！
+### 注：此功能为加密Pro专属，购买加密Pro后自动激活！
 
 ### 一键转系统Pro
 
 请使用[转系统Pro](https://skin-api-en.gushao.club/co_pro) 。
 
-交流群[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。。
-
-授权[点击：](https://skin.gushao.club/docs/public_service/)。
+无法使用请进交流群，交流群[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。
