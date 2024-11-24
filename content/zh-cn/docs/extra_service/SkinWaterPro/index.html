@@ -211,6 +211,20 @@
       .auth-form {
         margin: 0 auto 20px;
       }
+      .rotation-control {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .rotation-control input[type="range"] {
+        flex: 1;
+      }
+
+      .rotation-value {
+        min-width: 50px;
+        text-align: right;
+      }
     </style>
   </head>
   <body>
@@ -270,6 +284,20 @@
               value="0.5"
             />
           </label>
+           <label>
+            文字倾斜度：
+            <div class="rotation-control">
+              <input
+                type="range"
+                id="rotation"
+                min="-180"
+                max="180"
+                step="1"
+                value="-30"
+              />
+              <span class="rotation-value" id="rotationValue">-30°</span>
+            </div>
+          </label>
           <label>
             水印密度：
             <input type="number" id="density" value="50" min="10" max="200" />
@@ -300,6 +328,7 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+   
     <script src="script.js"></script>
   </body>
 </html>
