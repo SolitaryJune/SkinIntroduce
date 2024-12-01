@@ -1,5 +1,5 @@
 ---
-title : "一键换Logo"
+title : "一键换Logo/切片/批量换素材"
 description: "作者 ｜ 孤傲"
 lead: "作者 ｜ 孤傲"
 date: 2021-08-19T08:49:31+00:00

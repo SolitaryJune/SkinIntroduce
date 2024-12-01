@@ -1,5 +1,5 @@
 ---
-title : "素材分割Free"
+title : "素材分割Pro"
 description: "作者 ｜ 孤傲"
 lead: "作者 ｜ 孤傲"
 date: 2021-08-19T08:49:31+00:00
@@ -8,14 +8,14 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "public_service"
+    parent: "extra_service"
 toc: true
 weight: 830
 ---
 
 ### 素材分割Pro
 
-如果你想要更多自定义，欢迎使用[素材分割Pro](https://skin.gushao.club/docs/extra_service/picpartpro/) 。
+如果你想要更多自定义，欢迎使用[素材分割Pro](https://skin.gushao.club/docs/extra_service/skinwaterpro/) 。
 
 ### Pro与Free功能对比一览
 
@@ -23,12 +23,6 @@ weight: 830
 | --- |:--:|:--:|
 | Pro | ✔ | ✔ |
 | Free | ❌ | ❌ |
-
-### 素材分割Free
-
-点击跳转[素材分割Free](https://skin.gushao.club/docs/public_service/PicPart/) 。
-
-授权[点击：](https://skin.gushao.club/docs/public_service/)。
 
 ---
 
