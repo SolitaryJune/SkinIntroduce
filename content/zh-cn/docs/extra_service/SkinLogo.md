@@ -1,5 +1,5 @@
 ---
-title : "一键换Logo/切片/批量换素材"
+title : "一键换Logo/切片/wx批量换素材"
 description: "作者 ｜ 孤傲"
 lead: "作者 ｜ 孤傲"
 date: 2021-08-19T08:49:31+00:00
@@ -13,9 +13,9 @@ toc: true
 weight: 830
 ---
 
-### 一键换Logo
+### 一键换Logo/切片/wx批量换素材
 
-点击跳转[一键换Logo](https://skinlogo.gushao.club) 。
+点击跳转[一键换Logo/切片/wx批量换素材](https://skinlogo.gushao.club) 。
 
 一键换logo支持切片、合成切片。输入（上传）要命名的文件名字，输出多张名字不同但内容相同的图片。
 
