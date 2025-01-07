@@ -17,7 +17,11 @@ weight: 830
 
 点击跳转[图命灵变Pro](https://skin.gushao.club/docs/extra_service/PicMagicPro/) 。
 
-一键换logo支持切片、合成切片。输入（上传）要命名的文件名字，输出多张名字不同但内容相同的图片。
+图命灵变Pro支持批量导入多张图片。
+
+支持自定义裁剪或者拉伸，智能（三种模式）处理图片大小（长和宽）。
+
+支持批量重新命名，批量导出多张图片。
 
 交流群[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。
 
@@ -27,8 +31,8 @@ weight: 830
 
 2️⃣进入网站
 
-## 购买
+## 购买（售价45r，含图命灵变Pro&素材分割Pro）
 
-购买链接，没有优惠码就不填写[一键换Logo](https://shop.gushao.club/buy/20)。
+购买链接，没有优惠码就不填写[图命灵变Pro&素材分割Pro](https://shop.gushao.club/buy/19)。
 
 ### 注：此功能为自动授权，购买后即可使用！
