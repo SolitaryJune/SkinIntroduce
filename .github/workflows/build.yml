@@ -7,17 +7,14 @@ on:
     branches: [main]
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: true
-
 
 jobs:
   build:
@@ -25,24 +22,27 @@ jobs:
     if: "!(github.event_name == 'push' && contains(github.event.head_commit.message, '[skip ci]'))"
     steps:
     - name: Check out project
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
         
     - name: Set up Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'  # 明确指定 Node.js 版本
 
     - name: Get yarn cache directory path
       id: yarn-cache-dir-path
-      run: echo "::set-output name=dir::$(yarn cache dir)"
+      run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
 
-    - uses: actions/cache@v2
-      id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+    - uses: actions/cache@v3
+      id: yarn-cache
       with:
         path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
         key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
         restore-keys: |
           ${{ runner.os }}-yarn-
+
     - name: Install dependencies
       run: yarn
 
@@ -60,15 +60,14 @@ jobs:
     - name: Setup Pages
       if: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
       id: pages
-      uses: actions/configure-pages@v2
+      uses: actions/configure-pages@v3
     
     - name: Upload artifact
       if: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
-      uses: actions/upload-pages-artifact@v2
+      uses: actions/upload-pages-artifact@v2  # 更新到 v2
       with:
         path: ./public
 
-  # Deployment job
   deploy:
     if: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
     environment:
@@ -79,4 +78,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v3  # 更新到 v3
