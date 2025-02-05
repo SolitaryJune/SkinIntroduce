@@ -237,7 +237,12 @@
           new Date().getFullYear();
       })();
     </script>
-    <script src="script.js"></script>
+    
+    <script type="text/javascript">
+        document.write(
+          "<script src='script.js?" + Math.random() + "'><\/script>"
+        );
+      </script>
     <script>
         function updateContentVisibility() {
             document.getElementById('sliceContent').style.display = 'none';
