@@ -280,8 +280,17 @@
     <canvas id="previewCanvas"></canvas>
 
     <footer>
-        &copy; 2024 图片与TIL文件生成器 | 由 <a href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=3567055800">孤傲</a> 强力驱动 | 致谢 您的美人 林乐妍
-    </footer>
+        &copy; <span id="currentYear">2025</span> GuShao's Skins Service | 由 <a
+          href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=3567055800">孤傲</a> 强力驱动
+      </footer>
+    
+    
+      <script>
+        (function () {
+          document.getElementById("currentYear").innerText =
+            new Date().getFullYear();
+        })();
+      </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
     <script type="text/javascript">
