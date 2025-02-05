@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "GuShao's Skin"
+title = "GuShao's Skins Service"
 titleSeparator = "-"
 titleAddition = "文档"
-description = "GuShao's Skin"
+description = "GuShao's Skins Service"
 
 ## Open Graph
 images = ["LogoXiuXin.png"]
@@ -51,8 +51,8 @@ portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 
 # Footer
-footer = "CC-BY-SA | Copyright (c) 2021 - {year} GuShao's Skin Organization"
-copyright = "Copyright (c) 2021 - {year} GuShao's Skin Organization"
+footer = "CC-BY-SA | Copyright (c) 2021 - {year} GuShao's Skins Service Organization"
+copyright = "Copyright (c) 2021 - {year} GuShao's Skins Service Organization"
 
 # Alert
 alert = false
@@ -64,8 +64,8 @@ editPage = true
 
 # Contributors
 githubContributors = false
-githubUser = "GuShao's Skin"
-githubRepo = "GuShao's Skin"
+githubUser = "GuShao's Skins Service"
+githubRepo = "GuShao's Skins Service"
 githubDocRepo = "solitaryjune.github.io"
 githubDocTree = "main"
 githubContributorsAPI = ""
