@@ -1,5 +1,5 @@
 ---
-title: "GuShao's Skins Service - 创造，为了无法创造的价值"
+title: "GuShao's Skin - 创造，为了无法创造的价值"
 description: "皮肤服务"
 lead: "产品自身就是明证 —— 一款好用的线上皮肤服务"
 # date: 2021-08-19T08:47:36+00:00
