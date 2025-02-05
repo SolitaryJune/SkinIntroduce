@@ -7,12 +7,12 @@ titleAddition = "文档"
 description = "GuShao's Skin"
 
 ## Open Graph
-images = ["LogoXiuXin.png"]
+images = ["Logo.png"]
 ogLocale = "zh_cn"
 ogImageHeight = "320"
 ogImageWidth = "640"
 domainTLD = "skin.gushao.club"
-titleHome = "XiuXin Doc"
+titleHome = "GuShao's Skin Doc"
 
 ## Twitter Cards
 twitterSite = ""
@@ -29,7 +29,7 @@ schemaLocale = "zh-CN"
 schemaLogo = "android-chrome-512x512.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "LogoXiuXin.png"
+schemaImage = "Logo.png"
 schemaImageWidth = 289
 schemaImageHeight = 117
 schemaTwitter = ""
