@@ -285,12 +285,17 @@
       </footer>
     
     
-      <script>
+       <script>
+        // 检查来源，如果不是来自 skin.gushao.club 则重定向
+        if (!document.referrer.includes('skin.gushao.club')) {
+            window.location.href = 'https://skin.gushao.club';
+        }
+
+        // 设置当前年份
         (function () {
-          document.getElementById("currentYear").innerText =
-            new Date().getFullYear();
+            document.getElementById("currentYear").innerText = new Date().getFullYear();
         })();
-      </script>
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
     <script type="text/javascript">

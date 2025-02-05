@@ -222,12 +222,17 @@
       </footer>
     
     
-      <script>
+       <script>
+        // 检查来源，如果不是来自 skin.gushao.club 则重定向
+        if (!document.referrer.includes('skin.gushao.club')) {
+            window.location.href = 'https://skin.gushao.club';
+        }
+
+        // 设置当前年份
         (function () {
-          document.getElementById("currentYear").innerText =
-            new Date().getFullYear();
+            document.getElementById("currentYear").innerText = new Date().getFullYear();
         })();
-      </script>
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/spark-md5/3.0.0/spark-md5.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/browserfs"></script>

@@ -330,11 +330,16 @@
   
    
     </div>
- <script>
-      (function () {
-        document.getElementById("currentYear").innerText =
-          new Date().getFullYear();
-      })();
+  <script>
+        // 检查来源，如果不是来自 skin.gushao.club 则重定向
+        if (!document.referrer.includes('skin.gushao.club')) {
+            window.location.href = 'https://skin.gushao.club';
+        }
+
+        // 设置当前年份
+        (function () {
+            document.getElementById("currentYear").innerText = new Date().getFullYear();
+        })();
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
    
