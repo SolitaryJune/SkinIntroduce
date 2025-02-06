@@ -51,7 +51,7 @@ portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 
 # Footer
-footer = "CC-BY-SA | Copyright (c) 2021 - {year} GuShao's Skin Organization"
+footer = "CL-EULA | Copyright (c) 2021 - {year} GuShao's Skin Organization"
 copyright = "Copyright (c) 2021 - {year} GuShao's Skin Organization"
 
 # Alert
