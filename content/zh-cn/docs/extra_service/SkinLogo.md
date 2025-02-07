@@ -15,7 +15,7 @@ weight: 830
 
 ### 一键换Logo/切片/wx批量换素材
 
-点击跳转[一键换Logo/切片/wx批量换素材](https://skin.gushao.club/docs/extra_service/SkinLogo) 。
+点击跳转[一键换Logo/切片/wx批量换素材 →](https://skin.gushao.club/docs/extra_service/SkinLogo) 。
 
 一键换logo支持切片、合成切片。输入（上传）要命名的文件名字，输出多张名字不同但内容相同的图片。
 

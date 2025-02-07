@@ -15,7 +15,7 @@ weight: 830
 
 ### 图命灵变Pro
 
-点击跳转[图命灵变Pro](https://skin.gushao.club/docs/extra_service/PicMagicPro/) 。
+点击跳转[图命灵变Pro →](https://skin.gushao.club/docs/extra_service/PicMagicPro/) 。
 
 图命灵变Pro支持批量导入多张图片。
 

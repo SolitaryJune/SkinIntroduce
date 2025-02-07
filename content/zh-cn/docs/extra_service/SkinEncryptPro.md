@@ -15,7 +15,7 @@ weight: 830
 
 ### 皮肤加密Pro（此功能定价35r永久）
 
-欢迎使用[皮肤加密Pro](https://skin-api-sq.gushao.club/en_pro)。
+欢迎使用[皮肤加密Pro →](https://skin-api-sq.gushao.club/en_pro)。
 
 交流群[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。
 
@@ -23,10 +23,10 @@ weight: 830
 
 ### Pro与Free功能对比一览
 
-| 功能 |     加密    | 加密文件内容 | 禁止转系统 | 批量加密 |
-| --- | -------------  |:--:|:--:|:--:|
-| Pro |   更强的加密性能 | ✔ | ✔ | ✔ |
-| Free |   ✔ | ❌ | ❌ | ❌ |
+| 功能 |     加密    | 加密文件内容 | 禁止转系统 | 批量加密 | 大文件上传 |
+| --- | -------------  |:--:|:--:|:--:|:--:|
+| Pro |   更强的加密性能 | ✔ | ✔ | ✔ | ✔ |
+| Free |   ✔ | ❌ | ❌ | ❌ | ❌ |
 
 ## 教程
 
@@ -36,4 +36,4 @@ weight: 830
 
 ## 购买
 
-购买链接，没有优惠码就不填写[皮肤加密Pro](https://shop.gushao.club/buy/22)。
+购买链接，没有优惠码就不填写[皮肤加密Pro购买 →](https://shop.gushao.club/buy/22)。

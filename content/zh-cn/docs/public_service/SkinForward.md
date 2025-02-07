@@ -15,6 +15,6 @@ weight: 830
 
 ### 打前景Free
 
-打前景Pro，支持导入til[打前景Pro](https://skin.gushao.club/docs/extra_service/SkinForward/) 。
+打前景Pro，支持导入til[打前景Pro →](https://skin.gushao.club/docs/extra_service/SkinForward/) 。
 
-点击跳转[打前景Free](https://skin.gushao.club/docs/extra_service/SkinForward/) 。
+点击跳转[打前景Free →](https://skin.gushao.club/docs/extra_service/SkinForward/) 。

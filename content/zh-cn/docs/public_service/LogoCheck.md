@@ -15,7 +15,7 @@ weight: 830
 
 ### 图片尺寸检测工具(Logo)
 
-点击跳转[图片尺寸检测工具(Logo)](https://skin.gushao.club/docs/public_service/LogoCheck/) 。
+点击跳转[图片尺寸检测工具(Logo) →](https://skin.gushao.club/docs/public_service/LogoCheck/) 。
 
 用于检测logo是否合规，具体表现为图片 **宽** / **高** 是否一致。
 

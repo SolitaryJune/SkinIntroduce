@@ -15,17 +15,17 @@ weight: 830
 
 ### 皮肤加密Pro
 
-如果你想要加密性能更强，欢迎使用[皮肤加密Pro](https://skin.gushao.club/docs/extra_service/skinencryptpro/) 。
+如果你想要加密性能更强，欢迎使用[皮肤加密Pro →](https://skin.gushao.club/docs/extra_service/skinencryptpro/) 。
 
 ### Pro与Free功能对比一览
 
-| 功能 |     加密    | 加密文件内容 | 禁止转系统 | 批量加密 |
-| --- | -------------  |:--:|:--:|:--:|
-| Pro |   更强的加密性能 | ✔ | ✔ | ✔ |
-| Free |   ✔ | ❌ | ❌ | ❌ |
+| 功能 |     加密    | 加密文件内容 | 禁止转系统 | 批量加密 | 大文件上传 |
+| --- | -------------  |:--:|:--:|:--:|:--:|
+| Pro |   更强的加密性能 | ✔ | ✔ | ✔ | ✔ |
+| Free |   ✔ | ❌ | ❌ | ❌ | ❌ |
 
 ### 皮肤加密Free
 
-点击跳转[皮肤加密Free](http://1.92.91.113/en) 。
+点击跳转[皮肤加密Free →](http://1.92.91.113/en) 。
 
 授权[点击：](https://skin.gushao.club/docs/public_service/)。

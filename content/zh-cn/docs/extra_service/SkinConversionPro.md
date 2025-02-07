@@ -17,7 +17,7 @@ weight: 830
 
 ### 一键转系统Pro
 
-点击跳转[转系统Pro](http://1.92.91.113/co_pro) 。
+点击跳转[转系统Pro →](http://1.92.91.113/co_pro) 。
 
 无法使用请进交流群，交流群[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。
 

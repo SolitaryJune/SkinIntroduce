@@ -15,7 +15,7 @@ weight: 830
 
 ### 图片水印Pro
 
-如果你想要更多自定义，欢迎使用[图片水印Pro](https://skin.gushao.club/docs/extra_service/SkinWaterPro/) 。
+如果你想要更多自定义，欢迎使用[图片水印Pro →](https://skin.gushao.club/docs/extra_service/SkinWaterPro/) 。
 
 ### Pro与Free功能对比一览
 
