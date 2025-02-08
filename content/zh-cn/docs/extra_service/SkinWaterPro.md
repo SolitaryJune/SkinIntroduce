@@ -26,8 +26,6 @@ weight: 830
 
 ### 图片水印Pro
 
-交流群[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。
-
 ## 教程
 
 1️⃣获取卡密密钥（WX关注“JuneOver24”公众号发送“卡密登录”）
@@ -39,3 +37,5 @@ weight: 830
 购买链接，没有优惠码就不填写[图片水印Pro](https://shop.gushao.club/buy/20)。
 
 ### 注：此功能为自动授权，购买后即可使用！
+
+购买完成后请进售后交流群[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。
