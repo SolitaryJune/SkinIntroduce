@@ -19,7 +19,7 @@ weight: 830
 
 点击跳转[转系统Pro →](http://skin-api.gushao.club/co_pro) 。
 
-无法使用请进交流群，交流群[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。
+无法打开请使用[（备用）转系统Pro →](https://skin-api-sq.gushao.club/co_pro)。
 
 ## 教程
 

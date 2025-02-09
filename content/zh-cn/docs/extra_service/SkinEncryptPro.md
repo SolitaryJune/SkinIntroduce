@@ -17,6 +17,8 @@ weight: 830
 
 欢迎使用[皮肤加密Pro →](http://skin-api.gushao.club/en_pro)。
 
+无法打开请使用[（备用）皮肤加密Pro →](https://skin-api-sq.gushao.club/en_pro)。
+
 ### 注：此功能为自动授权，购买后可立刻使用！
 
 ### Pro与Free功能对比一览
