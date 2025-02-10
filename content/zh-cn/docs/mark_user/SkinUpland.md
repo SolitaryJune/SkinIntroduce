@@ -23,7 +23,7 @@ weight: 830
 
 注：此上传有群验证，需要在你的群里面发起上传，标准上传流程为**你的群发送“加密上传” —— 私聊机器人“QQ号” —— 获取上传密钥——网址上传皮肤——等待ID推送**
 
-如果是新建群，请参阅[二次鉴权 | 添加黑名单账号 →](https://skin.gushao.club/docs/mark_user/skinbatch/Authentication/) 。
+如果是新建群，请拉我进群鉴权机器人后，再参阅[二次鉴权 | 添加黑名单账号 →](https://skin.gushao.club/docs/mark_user/skinbatch/Authentication/) 。
 
 ## ~~WX上传~~
 
@@ -33,7 +33,7 @@ weight: 830
 
 注：此上传有群验证，需要在你的群里面发起上传，标准上传流程为**你的群发送“加密上传” —— 在群里发送“QQ号” —— 获取上传密钥 —— 网址上传皮肤 —— 等待ID推送**
 
-如果是新建群，请参阅[二次鉴权 | 添加黑名单账号 →](https://skin.gushao.club/docs/mark_user/skinbatch/Authentication/)。
+如果是新建群，请拉我进群鉴权机器人后，再参阅[二次鉴权 | 添加黑名单账号 →](https://skin.gushao.club/docs/mark_user/skinbatch/Authentication/)。
 
 ## 公众号上传
 
