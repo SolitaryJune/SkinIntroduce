@@ -21,7 +21,7 @@ weight: 830
 
 ## 在线打标
 
-欢迎使用[在线上传文件打标](https://skin.gushao.club/docs/extra_service/skinuploadhand/)。
+欢迎使用[在线上传文件打标](https://skin-api-sq.gushao.club/hand)。
 
 理论打标数量无限制，根据测试一次性打100个左右没有问题，建议一次性打50个，超过50个打第二次。可以同时进行。（第一次发送完毕后马上连续开启第二次）
 

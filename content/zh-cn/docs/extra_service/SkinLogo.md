@@ -31,7 +31,9 @@ weight: 830
 
 ## 购买
 
-购买链接，没有优惠码就不填写[一键换Logo](https://shop.gushao.club/buy/20)。
+购买链接，没有优惠码就不填写
+
+[购买一键换Logo →](https://shop.gushao.club/buy/20)。
 
 ### 注：此功能为自动授权，购买后即可使用！
 

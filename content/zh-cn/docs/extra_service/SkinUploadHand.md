@@ -42,8 +42,6 @@ weight: 830
 
 则**打标1**完成后将自动发送至**1@qq.com**，**打标2**将自动发送至**2@qq.com**。
 
-交流群[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。
-
 ### 注：此功能为自动授权，购买后可立刻使用！
 
 ## 教程
@@ -54,4 +52,8 @@ weight: 830
 
 ## 购买
 
-购买链接，没有优惠码就不填写[在线上传文件打标](https://shop.ikxiuxin.com/buy/23)。
+购买链接，没有优惠码就不填写
+
+[购买在线上传文件打标 →](https://shop.ikxiuxin.com/buy/23)。
+
+交流群[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。

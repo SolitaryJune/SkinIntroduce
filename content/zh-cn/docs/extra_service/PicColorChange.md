@@ -1,5 +1,5 @@
 ---
-title : "图片水印Pro"
+title : "一键改色"
 description: "作者 ｜ 孤傲"
 lead: "作者 ｜ 孤傲"
 date: 2021-08-19T08:49:31+00:00
@@ -13,18 +13,15 @@ toc: true
 weight: 830
 ---
 
-### 图片水印Pro
+### 一键改色
 
-如果你想要更多自定义，欢迎使用[图片水印Pro →](https://skin.gushao.club/docs/extra_service/SkinWaterPro/) 。
+点击跳转[一键改色 →](https://skin.gushao.club/docs/extra_service/PicColorChange/) 。
 
-### Pro与Free功能对比一览
+一键改色支持批量导入多张图片。
 
-| 功能 |     文字    | 自定义字体 | 调整倾斜度 | 自定义文字颜色 | 批量生成水印 |
-| --- | -------------  |:--:|:--:|:--:|:--:|
-| Pro |   自定义全部文字 | ✔ | ✔ | ✔ | ✔ |
-| Free | 不可删除Free | ❌ | ❌ | ❌ | ❌ |
+支持图片（Logo，前景等等）上一键改颜色
 
-### 图片水印Pro
+支持渐变，批量导出多张图片。
 
 ## 教程
 
@@ -32,11 +29,11 @@ weight: 830
 
 2️⃣进入网站
 
-## 购买
+## 购买（售价15r）
 
 购买链接，没有优惠码就不填写
 
-[购买图片水印Pro →](https://shop.gushao.club/buy/20)。
+[购买一键改色 →](https://shop.gushao.club/buy/24)。
 
 ### 注：此功能为自动授权，购买后即可使用！
 

@@ -31,7 +31,9 @@ weight: 830
 
 ## 购买（售价45r，含图命灵变Pro&素材分割Pro）
 
-购买链接，没有优惠码就不填写[图命灵变Pro&素材分割Pro](https://shop.gushao.club/buy/19)。
+购买链接，没有优惠码就不填写
+
+[图命灵变Pro&素材分割Pro →](https://shop.gushao.club/buy/19)。
 
 ### 注：此功能为自动授权，购买后即可使用！
 

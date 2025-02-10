@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>图片颜色处理工具</title>
+    <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.13.2/dist/av-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        background: linear-gradient(to right, #ece9e6, #ffffff);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 90%;
+        max-width: 400px;
+        margin-bottom: 20px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 1rem;
+        color: #555;
+      }
+
+      input[type="text"],
+      input[type="file"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        box-sizing: border-box;
+        font-size: 1rem;
+        background-color: #f9f9f9;
+        box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+      }
+
+      input[type="text"]:focus,
+      input[type="file"]:focus,
+      select:focus,
+      textarea:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+        background-color: #fff;
+      }
+
+      button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1rem;
+        width: 100%;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+        box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+      }
+
+      #output {
+        margin-top: 20px;
+        color: #333;
+        font-size: 0.9rem;
+        text-align: center;
+      }
+
+      .qr-section {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin-bottom: 20px;
+        max-width: 400px;
+        width: 90%;
+      }
+
+      .qr-section h2 {
+        font-size: 1.25rem;
+        color: #007bff;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .qr-section h2 i {
+        margin-right: 5px;
+      }
+
+      .qr-section p {
+        margin: 10px 0;
+        color: #555;
+        font-size: 0.85rem;
+      }
+
+      .qr-section img {
+        margin-top: 10px;
+        width: 80%;
+        max-width: 200px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      footer {
+        margin-top: 20px;
+        text-align: center;
+        color: #777;
+        font-size: 0.9rem;
+      }
+
+      footer a {
+        color: #007bff;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      #colorOptions {
+        margin: 15px 0;
+        padding: 10px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+      }
+      .color-group {
+        display: none;
+      }
+      .color-group.active {
+        display: block;
+      }
+      .color-input {
+        margin: 10px 0;
+      }
+      button:hover {
+        background-color: #0056b3;
+        box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+      }
+
+      #output {
+        margin-top: 20px;
+        color: #333;
+        font-size: 0.9rem;
+        text-align: center;
+      }
+      .progress-container {
+        margin-top: 20px;
+        width: 100%;
+        height: 20px;
+        background-color: #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      .progress-bar {
+        height: 100%;
+        background-color: #28a745;
+        width: 0%;
+        text-align: center;
+        line-height: 20px;
+        color: white;
+        font-size: 0.85rem;
+        font-weight: bold;
+        border-radius: 10px;
+      }
+      .qr-section {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin-bottom: 20px;
+        max-width: 400px;
+        width: 90%;
+      }
+
+      .qr-section h2 {
+        font-size: 1.25rem;
+        color: #007bff;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .qr-section h2 i {
+        margin-right: 5px;
+      }
+
+      .qr-section p {
+        margin: 10px 0;
+        color: #555;
+        font-size: 0.85rem;
+      }
+
+      .qr-section img {
+        margin-top: 10px;
+        width: 80%;
+        max-width: 200px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      footer {
+        margin-top: 20px;
+        text-align: center;
+        color: #777;
+        font-size: 0.9rem;
+      }
+
+      footer a {
+        color: #007bff;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>一键改色</h1>
+    <form id="authForm">
+      <label for="authInput">输入授权码：</label>
+      <input type="text" id="authInput" placeholder="请输入授权码" />
+      <button type="button" onclick="authenticate()">验证</button>
+    </form>
+
+    <div id="mainContent" style="display: none">
+      <form>
+        <label for="imageInput">选择图片文件(支持多选)：</label>
+        <input type="file" id="imageInput" accept="image/*" multiple />
+
+        <label>是否使用渐变：</label>
+        <select id="gradientSelect" onchange="toggleGradient()">
+          <option value="false">否</option>
+          <option value="true">是</option>
+        </select>
+
+        <div id="colorOptions">
+          <div id="solidColorGroup" class="color-group active">
+            <label>选择颜色：</label>
+            <input
+              type="text"
+              id="solidColor"
+              placeholder="#RRGGBB"
+              class="color-input"
+            />
+          </div>
+
+          <div id="gradientColorGroup" class="color-group">
+            <label>渐变方向(冷知识：调转起始结束颜色相当于换方向)：</label>
+            <select id="gradientDirection">
+              <option value="left-right">从左到右</option>
+              <option value="top-left-bottom-right">从左上到右下</option>
+              <option value="top-right-bottom-left">从右上到左下</option>
+            </select>
+
+            <div class="color-inputs">
+              <input
+                type="text"
+                id="colorStart"
+                placeholder="起始颜色 #RRGGBB"
+                class="color-input"
+              />
+              <input
+                type="text"
+                id="colorEnd"
+                placeholder="结束颜色 #RRGGBB"
+                class="color-input"
+              />
+            </div>
+          </div>
+        </div>
+        <div id="progressSection" style="display: none">
+          <h2>处理进度</h2>
+          <div class="progress-container">
+            <div class="progress-bar" id="progressBar">0%</div>
+          </div>
+        </div>
+        <button type="button" onclick="processImages()">处理并下载</button>
+      </form>
+    </div>
+    <div class="qr-section">
+      <h2><i class="fas fa-qrcode"></i> 公益查询服务</h2>
+      <p>微信扫码发送“查黑名单xxx”<br />支持 QQ | 微信 | 小红书</p>
+      <img
+        src="https://git.gushao.club/https://github.com/SolitaryJune/apps/raw/master/WXJuneOver24.png"
+        style="width: 200px; height: auto"
+        alt="QR Code"
+      />
+      <p>
+        【提交二传】黑名单申请：<a
+          href="https://docs.qq.com/form/page/DVFpqaWNabVBzbnJu"
+          target="_blank"
+          >点击申请</a
+        >
+      </p>
+    </div>
+
+    <footer>
+      &copy; <span id="currentYear">2025</span> GuShao's Skins Service | 由
+      <a
+        href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=3567055800"
+        >孤傲</a
+      >
+      强力驱动
+    </footer>
+
+    <script type="text/javascript">
+      document.write(
+        "<script src='script.js?" + Math.random() + "'><\/script>"
+      );
+    </script>
+  </body>
+</html>

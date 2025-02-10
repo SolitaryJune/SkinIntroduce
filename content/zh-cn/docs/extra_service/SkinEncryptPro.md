@@ -36,6 +36,8 @@ weight: 830
 
 ## 购买
 
-购买链接，没有优惠码就不填写[皮肤加密Pro购买 →](https://shop.gushao.club/buy/22)。
+购买链接，没有优惠码就不填写
+
+[皮肤加密Pro购买 →](https://shop.gushao.club/buy/22)。
 
 购买完成后请进售后交流群[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。
