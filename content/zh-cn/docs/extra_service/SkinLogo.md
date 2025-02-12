@@ -21,6 +21,8 @@ weight: 830
 
 ## 教程
 
+点击跳转[视频教程 (访问密码: WXJuneOver24) →](https://url69.ctfile.com/d/22031369-65046580-3246ae?p=WXJuneOver24) 。
+
 1️⃣获取卡密密钥（WX关注“JuneOver24”公众号发送“卡密登录”）
 
 2️⃣进入网站
