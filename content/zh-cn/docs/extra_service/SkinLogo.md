@@ -31,6 +31,10 @@ weight: 830
 
 **A:** 请使用**公益服务**中图片尺寸检测工具，检测**原素材大小（像素值）**是否与**替换尺寸**[图片尺寸检测工具(Logo)](https://skin.gushao.club/docs/public_service/LogoCheck/) 。用于检测 **素材/Logo** 是否合规，具体表现为图片 **宽** / **高** 是否一致。
 
+**Q:** 如何解决 **某些素材/Logo** 无法被替换的问题？
+
+**A:** 请使用**额外服务**中图命灵变Pro，修改 **替换尺寸** ，与 **原素材大小（像素值）** 保持一致。 [图命灵变Pro](https://skin.gushao.club/docs/extra_service/picmagicpro/) 。或者删除不一致的 **素材/Logo** 。
+
 ## 购买
 
 购买链接，没有优惠码就不填写
