@@ -46,6 +46,8 @@ weight: 830
 
 ## 教程
 
+已购买打标机用户请前往[使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)。
+
 1️⃣获取卡密密钥（WX关注“JuneOver24”公众号发送“卡密登录”）
 
 2️⃣进入网站

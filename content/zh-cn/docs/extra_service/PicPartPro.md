@@ -15,7 +15,9 @@ weight: 830
 
 ### 素材分割Pro
 
-如果你想要更多自定义，欢迎使用[素材分割Pro →](https://skin.gushao.club/docs/extra_service/PicPartPro/) 。
+欢迎使用[素材分割Pro →](https://skin.gushao.club/docs/extra_service/PicPartPro/) 。
+
+已购买打标机用户请前往[使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)。
 
 ### Pro与Free功能对比一览
 
