@@ -3,9 +3,6 @@
 
 <head>
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <script type="text/javascript">
-        document.write("<script src='script.js?" + Math.random() + "'><\/script>");
-    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>文件加密Pro</title>
@@ -221,11 +218,11 @@
 
     <footer>
         &copy; <span id="currentYear">2025</span> GuShao's Skins Service | 由 <a
-            href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=3567055800">孤傲</a> 强力驱动
-    </footer>
-
-
-    <script>
+          href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=3567055800">孤傲</a> 强力驱动
+      </footer>
+    
+    
+       <script>
         // 检查来源，如果不是来自 skin.gushao.club 则重定向
         if (!document.referrer.includes('skin.gushao.club')) {
             window.location.href = 'https://skin.gushao.club';
@@ -241,7 +238,9 @@
     <script src="https://cdn.jsdelivr.net/npm/browserfs"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
     <!-- <script src="script.js"></script> -->
-
+    <script type="text/javascript">
+        document.write("<script src='script.js?" + Math.random() + "'><\/script>");
+    </script>
 </body>
 
 </html>
