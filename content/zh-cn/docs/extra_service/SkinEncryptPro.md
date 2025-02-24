@@ -15,9 +15,9 @@ weight: 830
 
 ### 皮肤加密Pro（此功能定价35r永久,支持所有设备）
 
-欢迎使用[皮肤加密Pro →](http://skin-api.gushao.club/en_pro)。
+欢迎使用[皮肤加密Pro →](https://skin.gushao.club/docs/extra_service/SkinEncryptPro)。
 
-无法打开请使用[（备用）皮肤加密Pro →](https://skin-api-sq.gushao.club/en_pro)。
+<!-- 无法打开请使用[（备用）皮肤加密Pro →](https://skin-api-sq.gushao.club/en_pro)。 -->
 
 ### 注：此功能为自动授权，购买后可立刻使用！
 

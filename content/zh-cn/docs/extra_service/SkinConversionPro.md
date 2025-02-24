@@ -17,9 +17,9 @@ weight: 830
 
 ### 一键转系统Pro
 
-点击跳转[转系统Pro →](http://skin-api.gushao.club/co_pro) 。
+点击跳转[转系统Pro →](https://skin.gushao.club/docs/extra_service/SkinConversionPro/) 。
 
-无法打开请使用[（备用）转系统Pro →](https://skin-api-sq.gushao.club/co_pro)。
+<!-- 无法打开请使用[（备用）转系统Pro →](https://skin-api-sq.gushao.club/co_pro)。 -->
 
 ## 教程
 
