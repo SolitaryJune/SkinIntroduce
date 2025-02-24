@@ -13,7 +13,7 @@ toc: true
 weight: 830
 ---
 
-### 打前景Pro，支持导入til
+### 打前景Pro，支持导入til（此功能打标机专属,支持所有设备）
 
 已购买打标机用户请前往[使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)。
 

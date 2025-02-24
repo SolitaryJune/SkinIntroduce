@@ -13,7 +13,7 @@ toc: true
 weight: 830
 ---
 
-### 一键换Logo/切片/批量重命名/wx批量换素材
+### 一键换Logo/切片/批量重命名/wx批量换素材（此功能定价15r永久,支持所有设备）
 
 点击跳转[一键换Logo/切片/批量重命名/wx批量换素材 →](https://skin.gushao.club/docs/extra_service/SkinLogo) 。
 

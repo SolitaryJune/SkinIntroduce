@@ -13,7 +13,7 @@ toc: true
 weight: 830
 ---
 
-### 素材分割Pro
+### 素材分割Pro（此功能定价45r永久，含图命灵变Pro&素材分割Pro ,支持所有设备）
 
 欢迎使用[素材分割Pro →](https://skin.gushao.club/docs/extra_service/PicPartPro/) 。
 

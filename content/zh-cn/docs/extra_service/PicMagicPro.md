@@ -13,7 +13,7 @@ toc: true
 weight: 830
 ---
 
-### 图命灵变Pro
+### 图命灵变Pro（此功能定价45r永久，含图命灵变Pro&素材分割Pro,支持所有设备）
 
 点击跳转[图命灵变Pro →](https://skin.gushao.club/docs/extra_service/PicMagicPro/) 。
 

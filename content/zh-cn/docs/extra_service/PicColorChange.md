@@ -13,7 +13,7 @@ toc: true
 weight: 830
 ---
 
-### 一键改色
+### 一键改色（此功能定价15r永久,支持所有设备）
 
 点击跳转[一键改色 →](https://skin.gushao.club/docs/extra_service/PicColorChange/) 。
 
