@@ -19,7 +19,7 @@ weight: 830
 
 适配**文件结构**如下
 
-- bdi | bds | skini | skinb/
+- bdi | bds | it | skini | skinb /
   - GuShao.png  （预览图）
   - demo.png
   - 文件夹2 （皮肤的dark，light或res）
@@ -27,4 +27,4 @@ weight: 830
 
 总之，文件打开第一层必须要有GuShao.png才能使用预览图功能。
 
-注：皮肤文件如无GuShao.png，将会自动读取demo.png作为预览图。图标文件如无demo.png，则不显示预览图。
+注：皮肤文件如无GuShao.png，将会自动读取demo.png作为预览图。图标文件如无demo.png/GuShao.png，则不显示预览图。
