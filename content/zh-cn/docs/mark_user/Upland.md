@@ -21,7 +21,7 @@ weight: 830
 
 ### 注：请了解清楚上传格式
 
-如果你不清楚上传格式，请参阅[上传 →]({{% relref "mark_user/UploadFormat/" %}})
+如果你不清楚上传格式，请参阅[阅览 | 上传格式 →](https://skin.gushao.club/docs/mark_user/uploadformat/) 。
 
 ## QQ上传
 

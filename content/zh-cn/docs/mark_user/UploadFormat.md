@@ -15,11 +15,11 @@ weight: 830
 
 ### 注：请了解清楚上传流程
 
-如果你不清楚上传流程，请参阅[上传 →]({{% relref "mark_user/Upland/" %}})
+如果你不清楚上传流程，请参阅[阅览 | 上传格式 →](https://skin.gushao.club/docs/mark_user/uploadformat/) 。
 
 ### 注：请了解清楚适配预览流程
 
-如果你不清楚适配预览流程，请参阅[适配预览 →]({{% relref "mark_user/AdaptationPreview/" %}})
+如果你不清楚适配预览流程，请参阅[适配预览 →](https://skin.gushao.club/docs/mark_user/adaptationpreview/) 。
 
 ## 百度|讯飞等作者
 
