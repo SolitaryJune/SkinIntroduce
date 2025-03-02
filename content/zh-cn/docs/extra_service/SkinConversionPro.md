@@ -19,11 +19,11 @@ weight: 830
 
 点击跳转[转系统Pro →](https://skin.gushao.club/docs/extra_service/SkinConversionPro/) 。
 
-无法打开请使用[（备用）转系统Pro →](https://skin-api-encrypt.gushao.club/co_pro)。
+无法使用请打开[（备用）转系统Pro →](https://skin.gushao.club/docs/extra_service/SkinConversionProMirror)。
 
 ## 教程
 
-已购买打标机用户请前往[使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)。
+已购买打标机用户无需购买该功能，获取密钥（卡密）请前往[使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)。
 
 1️⃣获取卡密密钥（WX关注“JuneOver24”公众号发送“卡密登录”）
 
