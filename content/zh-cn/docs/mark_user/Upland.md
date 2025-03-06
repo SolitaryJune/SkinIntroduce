@@ -1,5 +1,5 @@
 ---
-title : "文件上传方式"
+title : "二、文件上传方式"
 description: "作者 ｜ 孤傲"
 lead: "作者 ｜ 孤傲"
 date: 2021-08-19T08:49:31+00:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "mark_user"
 toc: true
-weight: 1
+weight: 20
 ---
 
 ### 注：上传分为QQ，WX，公众号三个平台
@@ -29,7 +29,7 @@ weight: 1
 
 注：此上传有群验证，需要在你的群里面发起上传，标准上传流程为**你的群发送“加密上传” —— 私聊机器人“QQ号” —— 获取上传密钥——网址上传皮肤——等待ID推送**
 
-如果是新建群，请拉我进群鉴权机器人后，再参阅[二次鉴权 | 添加黑名单账号 →](https://skin.gushao.club/docs/mark_user/authentication/) 。
+如果是新建群，请拉**孤傲**进群鉴权机器人后，再参阅[二次鉴权 | 添加黑名单账号 →](https://skin.gushao.club/docs/mark_user/authentication/) 。
 
 ## ~~WX上传~~
 
@@ -39,10 +39,10 @@ weight: 1
 
 注：此上传有群验证，需要在你的群里面发起上传，标准上传流程为**你的群发送“加密上传” —— 在群里发送“QQ号” —— 获取上传密钥 —— 网址上传皮肤 —— 等待ID推送**
 
-如果是新建群，请拉我进群鉴权机器人后，再参阅[二次鉴权 | 添加黑名单账号 →](https://skin.gushao.club/docs/mark_user/skinbatch/Authentication/)。
+如果是新建群，请拉**孤傲**进群鉴权机器人后，再参阅[二次鉴权 | 添加黑名单账号 →](https://skin.gushao.club/docs/mark_user/skinbatch/Authentication/)。
 
 ## 公众号上传
 
 关键词**公众号上传**。
 
-注：此上传**无**群验证，直接在孤傲的会员群内发起即可。由于QQ和WX架构不同，在QQ群里发起后请**私聊Bot使用**，在WX群里请直接在WX群里使用！上传后请等待邮箱ID。
+注：此上传**无**群验证，直接在**孤傲**的会员群内发起即可。由于QQ和WX架构不同，在QQ群里发起后请**私聊Bot使用**，在WX群里请直接在WX群里使用！上传后请等待邮箱ID。
