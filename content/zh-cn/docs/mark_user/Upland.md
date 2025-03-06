@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "mark_user"
 toc: true
-weight: 830
+weight: 1
 ---
 
 ### 注：上传分为QQ，WX，公众号三个平台
