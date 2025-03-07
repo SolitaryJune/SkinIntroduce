@@ -13,21 +13,21 @@ toc: true
 weight: 40
 ---
 
-### 注：请了解清楚上传流程
+**注：请了解清楚上传流程**
 
 如果你不清楚上传流程，请参阅[阅览 | 上传格式 →](https://skin.gushao.club/docs/mark_user/uploadformat/) 。
 
-### 注：请了解清楚适配预览流程
+**注：请了解清楚适配预览流程**
 
 如果你不清楚适配预览流程，请参阅[适配预览 →](https://skin.gushao.club/docs/mark_user/adaptationpreview/) 。
 
-### 注：上传分为QQ，WX，公众号三个平台
+**注：上传分为QQ，WX，公众号三个平台**
 
 由于QQ和WX架构不同，在QQ群里发起后请**私聊Bot使用**，在WX群里请直接在WX群里使用！上传后请等待邮箱ID，ID格式为**你的QQ/群路径**
 
 **只有同步后才能使用该皮肤！！！**
 
-### 注：请了解清楚上传格式
+**注：请了解清楚上传格式**
 
 如果你不清楚上传格式，请参阅[阅览 | 上传格式 →](https://skin.gushao.club/docs/mark_user/uploadformat/) 。
 
