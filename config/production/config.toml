@@ -1,2 +1,3 @@
 baseurl = "https://skin.gushao.club/"
 canonifyURLs = true
+sectionPagesMenu = "main"
