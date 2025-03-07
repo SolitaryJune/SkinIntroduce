@@ -15,11 +15,13 @@ weight: 830
 
 ### 皮肤加密Pro（此功能定价35r永久,支持所有设备）
 
+已购买打标机用户无需购买该功能，获取密钥（卡密）请前往[使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)。
+
 欢迎使用[皮肤加密Pro →](https://skin.gushao.club/docs/extra_service/SkinEncryptPro)。
 
 无法使用请前往[（备用）皮肤加密Pro →](https://skin.gushao.club/docs/extra_service/SkinEncryptProMirror)。
 
-### 注：此功能为自动授权，购买后可立刻使用！
+注：**此功能为自动授权，购买后可立刻使用！**
 
 ### Pro与Free功能对比一览
 
@@ -29,8 +31,6 @@ weight: 830
 | Free |   ✔ | ❌ | ❌ | ❌ | ❌ |
 
 ## 教程
-
-已购买打标机用户无需购买该功能，获取密钥（卡密）请前往[使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)。
 
 1️⃣获取卡密密钥（WX关注“JuneOver24”公众号发送“卡密登录”）
 

@@ -13,15 +13,15 @@ toc: true
 weight: 830
 ---
 
-### 一键换Logo/切片/批量重命名/wx批量换素材（此功能定价15r永久,支持所有设备）
+注：**一键换Logo/切片/批量重命名/wx批量换素材（此功能定价15r永久,支持所有设备）**
+
+已购买打标机用户无需购买该功能，获取密钥（卡密）请前往[使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)。
 
 点击跳转[一键换Logo/切片/批量重命名/wx批量换素材 →](https://skin.gushao.club/docs/extra_service/SkinLogo) 。
 
 一键换logo支持切片、合成切片。输入（上传）要命名的文件名字，输出多张名字不同但内容相同的图片。
 
 ## 教程
-
-已购买打标机用户无需购买该功能，获取密钥（卡密）请前往[使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)。
 
 点击跳转[视频教程 (访问密码: WXJuneOver24) →](https://url69.ctfile.com/d/22031369-65046580-3246ae?p=WXJuneOver24) 。
 

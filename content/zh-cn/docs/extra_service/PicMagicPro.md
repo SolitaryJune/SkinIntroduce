@@ -15,6 +15,8 @@ weight: 830
 
 ### 图命灵变Pro（此功能定价45r永久，含图命灵变Pro&素材分割Pro,支持所有设备）
 
+已购买打标机用户无需购买该功能，获取密钥（卡密）请前往[使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)。
+
 点击跳转[图命灵变Pro →](https://skin.gushao.club/docs/extra_service/PicMagicPro/) 。
 
 图命灵变Pro支持批量导入多张图片。
@@ -24,8 +26,6 @@ weight: 830
 支持批量重新命名，批量导出多张图片。
 
 ## 教程
-
-已购买打标机用户无需购买该功能，获取密钥（卡密）请前往[使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)。
 
 1️⃣获取卡密密钥（WX关注“JuneOver24”公众号发送“卡密登录”）
 
