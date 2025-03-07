@@ -9,8 +9,8 @@ images: []
 menu:
   docs:
     parent: "mark_user"
+    weight: 10
 toc: true
-weight: 10
 ---
 
 ## 两次鉴权

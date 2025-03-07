@@ -9,8 +9,8 @@ images: []
 menu:
   docs:
     parent: "mark_user"
+    weight: 820
 toc: true
-weight: 820
 ---
 
 注：**卡密在网站兑换！兑换时只标记卡密含有内容，卡密可以二次获取！**

@@ -9,8 +9,8 @@ images: []
 menu:
   docs:
     parent: "mark_user"
+    weight: 830
 toc: true
-weight: 830
 ---
 
 ### 添加黑名单账号说明

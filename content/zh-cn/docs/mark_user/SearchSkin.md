@@ -9,8 +9,8 @@ images: []
 menu:
   docs:
     parent: "mark_user"
+    weight: 60
 toc: true
-weight: 830
 ---
 
 ## 皮肤|图标等文件批量查询

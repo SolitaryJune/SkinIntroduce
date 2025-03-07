@@ -9,8 +9,8 @@ images: []
 menu:
   docs:
     parent: "mark_user"
+    weight: 50
 toc: true
-weight: 50
 ---
 
 ## 注：皮肤获取分为QQ，WX，公众号三个平台

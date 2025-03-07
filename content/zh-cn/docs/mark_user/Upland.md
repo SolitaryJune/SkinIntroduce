@@ -9,8 +9,8 @@ images: []
 menu:
   docs:
     parent: "mark_user"
+    weight: 40
 toc: true
-weight: 40
 ---
 
 注：**请了解清楚上传流程**

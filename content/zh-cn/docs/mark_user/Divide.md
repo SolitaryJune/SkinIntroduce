@@ -9,8 +9,8 @@ images: []
 menu:
   docs:
     parent: "mark_user"
+    weight: 840
 toc: true
-weight: 840
 ---
 
 ### 分成规则

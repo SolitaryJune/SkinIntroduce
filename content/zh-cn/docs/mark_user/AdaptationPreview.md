@@ -9,8 +9,8 @@ images: []
 menu:
   docs:
     parent: "mark_user"
+    weight: 30
 toc: true
-weight: 30
 ---
 
 ### 适配预览 皮肤|图标等文件说明
