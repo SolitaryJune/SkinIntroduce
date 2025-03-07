@@ -1,5 +1,5 @@
 ---
-title : "生成卡密（上架阿奇索等）"
+title : "额外阅览、生成卡密（上架阿奇索等）"
 description: "作者 ｜ 孤傲"
 lead: "作者 ｜ 孤傲"
 date: 2021-08-19T08:49:31+00:00
@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "mark_user"
 toc: true
-weight: 830
+weight: 820
 ---
 
 ### 注：卡密在网站兑换！兑换时只标记卡密含有内容，卡密可以二次获取！

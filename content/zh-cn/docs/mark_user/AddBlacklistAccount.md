@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "mark_user"
 toc: true
-weight: 100
+weight: 830
 ---
 
 ### 添加黑名单账号说明

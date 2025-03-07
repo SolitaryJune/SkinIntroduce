@@ -1,5 +1,5 @@
 ---
-title : "阅览 | 上传格式"
+title : "二、阅览 | 上传格式"
 description: "作者 ｜ 孤傲"
 lead: "作者 ｜ 孤傲"
 date: 2021-08-19T08:49:31+00:00
@@ -10,16 +10,8 @@ menu:
   docs:
     parent: "mark_user"
 toc: true
-weight: 830
+weight: 20
 ---
-
-### 注：请了解清楚上传流程
-
-如果你不清楚上传流程，请参阅[阅览 | 上传格式 →](https://skin.gushao.club/docs/mark_user/uploadformat/) 。
-
-### 注：请了解清楚适配预览流程
-
-如果你不清楚适配预览流程，请参阅[适配预览 →](https://skin.gushao.club/docs/mark_user/adaptationpreview/) 。
 
 ## 百度|讯飞等作者
 
