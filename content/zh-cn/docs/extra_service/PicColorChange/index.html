@@ -206,7 +206,7 @@
         margin: 0 10px;
       }
 
-
+      /* 预览区域样式 */
       #previewArea {
         margin-top: 15px;
         text-align: center;
@@ -223,19 +223,20 @@
   <body>
     <h1>一键改色</h1>
 
+    <!-- 授权验证表单 -->
     <form id="authForm">
       <label for="authInput">输入授权码：</label>
       <input type="text" id="authInput" placeholder="请输入授权码" />
       <button type="button" onclick="authenticate()">验证</button>
     </form>
 
-
+    <!-- 主体表单 -->
     <div id="mainContent" style="display: none">
       <form>
         <label for="imageInput">选择图片文件(支持多选)：</label>
         <input type="file" id="imageInput" accept="image/*" multiple />
 
-  
+        <!-- 预览区 -->
         <div id="previewArea"></div>
 
         <label>是否使用渐变：</label>
@@ -291,6 +292,7 @@
           <label for="filterTransparent">过滤透明像素</label>
         </div>
 
+        <!-- 白度阈值调节 -->
         <div class="threshold-control" id="thresholdControl" style="display: none">
           <label>白度阈值：</label>
           <input
@@ -300,12 +302,18 @@
             max="255"
             value="220"
           />
+          <span class="threshold-value" id="thresholdValue">220</span>
+        </div>
 
+        <!-- 
+          修改点：当开启「是否修改色相」时，对整张图做色相偏移；否则按原先的填充逻辑
+        -->
         <div class="filter-option">
           <input type="checkbox" id="modifyHue" />
           <label for="modifyHue">修改色相</label>
         </div>
 
+        <!-- 色相偏移滑杆 -->
         <div class="threshold-control" id="hueControl" style="display: none">
           <label>色相偏移：</label>
           <input
