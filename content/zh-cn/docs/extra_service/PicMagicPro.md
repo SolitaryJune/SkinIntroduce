@@ -13,14 +13,12 @@ toc: true
 weight: 830
 ---
 
-### 图命灵变Pro
-
-**定价：45r永久（含图命灵变Pro & 素材分割Pro，支持所有设备）**。
+### 图命灵变Pro 定价45r永久（含图命灵变Pro & 素材分割Pro，支持所有设备）
 
 #### 基础说明  
 
 - 已购买打标机用户可免费获取密钥（卡密），请前往 [使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)  
-- [点击跳转功能详情 →](https://skin.gushao.club/docs/extra_service/PicMagicPro/)  
+- [点击跳转图命灵变Pro功能 →](https://skin.gushao.club/docs/extra_service/PicMagicPro/)  
 
 ---
 
