@@ -1,10 +1,10 @@
 ---
-title : "一键转系统Pro"
+title: "一键转系统Pro"
 description: "作者 ｜ 孤傲"
 lead: "作者 ｜ 孤傲"
 date: 2021-08-19T08:49:31+00:00
 lastmod: 2021-08-19T08:49:31+00:00
-draft: false 
+draft: false
 images: []
 menu:
   docs:
@@ -13,22 +13,34 @@ toc: true
 weight: 830
 ---
 
-注：**此功能为加密Pro专属，购买加密Pro后自动激活！**
+### 一键转系统Pro  
 
-### 一键转系统Pro
+**注：此功能为加密Pro专属，购买加密Pro后自动激活！**  
+已购买打标机用户无需额外购买，获取密钥（卡密）请前往 [使用额外功能](https://skin.gushao.club/docs/mark_user/useextraservice/)。
 
-已购买打标机用户无需购买该功能，获取密钥（卡密）请前往[使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)。
+#### 快速入口  
 
-点击跳转[转系统Pro →](https://skin.gushao.club/docs/extra_service/SkinConversionPro/) 。
+- [转系统Pro 主页](https://skin.gushao.club/docs/extra_service/SkinConversionPro/)  
+- [备用入口](https://skin.gushao.club/docs/extra_service/SkinConversionProMirror)  
 
-无法使用请打开[（备用）转系统Pro →](https://skin.gushao.club/docs/extra_service/SkinConversionProMirror)。
+---
 
-## 教程
+### 使用教程  
 
-1️⃣获取卡密密钥（WX关注“JuneOver24”公众号发送“卡密登录”）
+1️⃣ **获取卡密密钥**  
 
-2️⃣进入网站
+- 关注微信公众号“JuneOver24”，发送关键词“卡密登录”获取卡密  
 
-### 注：此功能为自动授权，购买后即可使用！
+2️⃣ **使用流程**
 
-购买完成后请进售后交流群[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。
+- 登录网站后，系统将自动授权（购买后无需额外操作）  
+
+> **重要提示**  
+> 若遇到卡密过期情况，别担心，这属于正常现象，重新获取卡密（授权密钥）即可继续使用，无需进行二次重复授权。
+
+---
+
+### 售后支持  
+
+购买完成后请加入 **售后交流群**：  
+[点击链接加入【logo&Pro售后，Free交流群】](https://qm.qq.com/q/BrPUdXGm6Q)  

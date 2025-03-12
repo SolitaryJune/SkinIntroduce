@@ -1,10 +1,10 @@
 ---
-title : "素材分割Pro"
+title: "素材分割Pro"
 description: "作者 ｜ 孤傲"
 lead: "作者 ｜ 孤傲"
 date: 2021-08-19T08:49:31+00:00
 lastmod: 2021-08-19T08:49:31+00:00
-draft: false 
+draft: false
 images: []
 menu:
   docs:
@@ -13,20 +13,25 @@ toc: true
 weight: 830
 ---
 
-### 素材分割Pro（此功能定价45r永久，含图命灵变Pro&素材分割Pro ,支持所有设备）
+### 素材分割Pro  
 
-已购买打标机用户无需购买该功能，获取密钥（卡密）请前往[使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)。
+**此功能定价45元永久**（含图命灵变Pro & 素材分割Pro，支持所有设备）  
 
-欢迎使用[素材分割Pro →](https://skin.gushao.club/docs/extra_service/PicPartPro/) 。
+> 已购买打标机用户无需购买该功能，获取密钥（卡密）请前往 [使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)  
 
-已购买打标机用户无需购买该功能，获取密钥（卡密）请前往[使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)。
+欢迎使用 [素材分割Pro →](https://skin.gushao.club/docs/extra_service/PicPartPro/)  
 
-### Pro与Free功能对比一览
+---
 
-| 功能 | 调整识别物体数量 | 更强的识别性能 | 支持psd文件 |
-| --- |:--:|:--:|:--:|
-| Pro | ✔ | ✔ | ✔ |
-| Free | ❌ | ❌ | ❌ |
+### Pro与Free功能对比  
+
+| 功能         | 调整识别物体数量 | 更强的识别性能 | 支持psd文件 |
+|--------------|:---------------:|:-------------:|:----------:|
+| **Pro**      |       ✔         |       ✔       |     ✔      |
+| **Free**     |       ❌         |       ❌       |     ❌      |
+
+> **重要提示**  
+> 若遇到卡密过期情况，别担心，这属于正常现象，重新获取卡密（授权密钥）即可继续使用，无需进行二次重复授权。
 
 ---
 

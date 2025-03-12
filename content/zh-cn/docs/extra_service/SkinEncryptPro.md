@@ -1,10 +1,10 @@
 ---
-title : "皮肤加密Pro"
-description: "作者 ｜ 孤傲"
-lead: "作者 ｜ 孤傲"
+title: "皮肤加密Pro"
+description: "由孤傲开发的专业皮肤加密服务，支持永久授权与多设备使用"
+lead: "作者：孤傲 | 永久授权 | 全设备支持"
 date: 2021-08-19T08:49:31+00:00
 lastmod: 2021-08-19T08:49:31+00:00
-draft: false 
+draft: false
 images: []
 menu:
   docs:
@@ -13,33 +13,48 @@ toc: true
 weight: 830
 ---
 
-### 皮肤加密Pro（此功能定价35r永久,支持所有设备）
+### 皮肤加密Pro（定价35元永久授权，全设备通用）
 
-已购买打标机用户无需购买该功能，获取密钥（卡密）请前往[使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)。
+已购买打标机用户可免费获取密钥，前往[额外功能页面](https://skin.gushao.club/docs/mark_user/useextraservice/)领取。
 
-欢迎使用[皮肤加密Pro →](https://skin.gushao.club/docs/extra_service/SkinEncryptPro)。
+---
 
-无法使用请前往[（备用）皮肤加密Pro →](https://skin.gushao.club/docs/extra_service/SkinEncryptProMirror)。
+#### 功能入口
 
-注：**此功能为自动授权，购买后可立刻使用！**
+- 官方通道：[皮肤加密Pro](https://skin.gushao.club/docs/extra_service/SkinEncryptPro)
+- 备用通道：[皮肤加密Pro Mirror](https://skin.gushao.club/docs/extra_service/SkinEncryptProMirror)
 
-### Pro与Free功能对比一览
+> **自动授权提示**  
+> 购买后立即生效，无需手动激活
 
-| 功能 |     加密    | 加密文件内容 | 禁止转系统 | 批量加密 | 大文件上传及稳定性 |
-| --- | -------------  |:--:|:--:|:--:|:--:|
-| Pro |   更强的加密性能 | ✔ | ✔ | ✔ | ✔ |
-| Free |   ✔ | ❌ | ❌ | ❌ | ❌ |
+---
 
-## 教程
+### Pro与Free功能对比
 
-1️⃣获取卡密密钥（WX关注“JuneOver24”公众号发送“卡密登录”）
+| 功能          | Pro版本       | Free版本 |
+|---------------|-------------------------|---------------------|
+| **加密强度**  | 高级加密算法          | 基础加密           |
+| **文件内容保护** | 加密后内容不可读       | 明文显示           |
+| **系统迁移限制** | 禁止转系统             | 无限制             |
+| **批量处理**   | 支持批量加密           | 单文件操作         |
+| **大文件支持** | 文件稳定上传      | 限制5MB以内      |
 
-2️⃣进入网站
+---
 
-## 购买
+#### 使用教程
 
-购买链接，没有优惠码就不填写
+1️⃣ **获取密钥**  
+关注微信公众号「JuneOver24」，发送「卡密登录」获取激活码
 
-[皮肤加密Pro购买 →](https://shop.gushao.club/buy/22)。
+2️⃣ **使用流程**  
+登录官网 → 输入密钥 → 选择加密模式 → 上传文件 → 下载加密结果
 
-购买完成后请进售后交流群[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。
+---
+
+#### 购买与售后
+
+- **购买链接**：[立即购买皮肤加密Pro](https://shop.gushao.club/buy/22)
+- **售后群组**：[加入售后交流群](https://qm.qq.com/q/BrPUdXGm6Q)（含Logo设计与Free用户交流）
+
+> **重要提示**  
+> 若遇到卡密过期情况，别担心，这属于正常现象，重新获取卡密（授权密钥）即可继续使用，无需进行二次重复授权。

@@ -1,10 +1,10 @@
 ---
-title : "图命灵变Pro"
+title: "图命灵变Pro"
 description: "作者 ｜ 孤傲"
 lead: "作者 ｜ 孤傲"
 date: 2021-08-19T08:49:31+00:00
 lastmod: 2021-08-19T08:49:31+00:00
-draft: false 
+draft: false
 images: []
 menu:
   docs:
@@ -13,30 +13,48 @@ toc: true
 weight: 830
 ---
 
-### 图命灵变Pro（此功能定价45r永久，含图命灵变Pro&素材分割Pro,支持所有设备）
+### 图命灵变Pro  
 
-已购买打标机用户无需购买该功能，获取密钥（卡密）请前往[使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)。
+**定价**：45r 永久（含图命灵变Pro & 素材分割Pro，支持所有设备）  
 
-点击跳转[图命灵变Pro →](https://skin.gushao.club/docs/extra_service/PicMagicPro/) 。
+#### 基础说明  
 
-图命灵变Pro支持批量导入多张图片。
+- 已购买打标机用户可免费获取密钥（卡密），请前往 [使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)  
+- [点击跳转功能详情 →](https://skin.gushao.club/docs/extra_service/PicMagicPro/)  
 
-支持自定义裁剪或者拉伸，智能（三种模式）处理图片大小（长和宽）。
+---
 
-支持批量重新命名，批量导出多张图片。
+### 核心功能  
 
-## 教程
+1. **批量处理**：支持批量导入/导出多张图片  
+2. **智能调整**：自定义裁剪/拉伸，智能处理图片尺寸（三种模式）  
+3. **批量操作**：一键重新命名图片  
 
-1️⃣获取卡密密钥（WX关注“JuneOver24”公众号发送“卡密登录”）
+---
 
-2️⃣进入网站
+### 使用教程  
 
-## 购买（售价45r，含图命灵变Pro&素材分割Pro）
+1️⃣ **获取卡密**  
 
-购买链接，没有优惠码就不填写
+- 关注微信公众号「JuneOver24」  
+- 发送关键词「卡密登录」获取密钥  
 
-[图命灵变Pro&素材分割Pro →](https://shop.gushao.club/buy/19)。
+2️⃣ **使用步骤**  
 
-### 注：此功能为自动授权，购买后即可使用！
+- 访问官方功能页面 [图命灵变Pro →](https://skin.gushao.club/docs/extra_service/PicMagicPro/)  
 
-购买完成后请进售后交流群[点击链接加入群聊【logo&Pro售后，Free交流群】：](https://qm.qq.com/q/BrPUdXGm6Q)。
+---
+
+### 购买通道  
+
+- **售价**：45r（含图命灵变Pro & 素材分割Pro）  
+- **购买链接**：[立即购买 →](https://shop.gushao.club/buy/19)  
+
+---
+
+### 注意事项  
+
+⚠️ 自动授权：购买后立即生效，无需额外操作  
+👥 售后支持：加入交流群 [logo&Pro售后群 →](https://qm.qq.com/q/BrPUdXGm6Q)  
+> **重要提示**  
+> 若遇到卡密过期情况，别担心，这属于正常现象，重新获取卡密（授权密钥）即可继续使用，无需进行二次重复授权。
