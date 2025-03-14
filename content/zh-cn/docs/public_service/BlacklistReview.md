@@ -30,7 +30,7 @@ weight: 830
 
 ## 🔍 审核人员名单  
 
-### 🏷️ 人员 1  ![人员 1 头像](http://q1.qlogo.cn/g?b=qq&nk=3066257018&s=100)](mqqapi://card/show_pslcard?src_type=internal&version=1&uin=3066257018)
+### 🏷️ 人员 1  [![人员 1 头像](http://q1.qlogo.cn/g?b=qq&nk=3066257018&s=100)](mqqapi://card/show_pslcard?src_type=internal&version=1&uin=3066257018)
 
 👤 **个人信息**  
 
@@ -39,7 +39,7 @@ weight: 830
 
 ---
 
-### 🏷️ 人员 2  ![人员 2 头像](http://q1.qlogo.cn/g?b=qq&nk=2914825196&s=100)](mqqapi://card/show_pslcard?src_type=internal&version=1&uin=2914825196)
+### 🏷️ 人员 2  [![人员 2 头像](http://q1.qlogo.cn/g?b=qq&nk=2914825196&s=100)](mqqapi://card/show_pslcard?src_type=internal&version=1&uin=2914825196)
 
 👤 **个人信息**  
 
