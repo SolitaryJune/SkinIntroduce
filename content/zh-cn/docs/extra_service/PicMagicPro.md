@@ -41,6 +41,8 @@ weight: 830
 
 - 访问官方功能页面 [图命灵变Pro →](https://skin.gushao.club/docs/extra_service/PicMagicPro/)  
 
+[视频教程（访问密码: WXJuneOver24）](https://url69.ctfile.com/d/22031369-65046580-3246ae?p=WXJuneOver24)
+
 ---
 
 ### 购买通道  

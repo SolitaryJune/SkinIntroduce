@@ -47,7 +47,7 @@ weight: 830
 
 ## 常见问题
 
-**Q:** 为什么某些素材/Logo无法被替换？  
+**Q:** 为什么某些素材/Logo无法被替换/解压文件为空？  
 **A:**  
 请使用 **[Logo尺寸检测工具](https://skin.gushao.club/docs/public_service/LogoCheck/)** 检查：
 
