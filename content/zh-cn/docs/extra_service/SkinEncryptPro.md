@@ -23,6 +23,7 @@ weight: 830
 
 - 官方通道：[皮肤加密Pro](https://skin.gushao.club/docs/extra_service/SkinEncryptPro)
 - 备用通道：[皮肤加密Pro Mirror](https://skin.gushao.club/docs/extra_service/SkinEncryptProMirror)
+- 备用通道2：[皮肤加密Pro Mirror2](https://skin-mirror.gushao.club/docs/extra_service/SkinEncryptPro)
 
 > **自动授权提示**  
 > 购买后立即生效，无需手动激活

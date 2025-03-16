@@ -22,6 +22,7 @@ weight: 830
 
 - [转系统Pro 主页](https://skin.gushao.club/docs/extra_service/SkinConversionPro/)  
 - [备用入口](https://skin.gushao.club/docs/extra_service/SkinConversionProMirror)  
+- [备用入口2](https://skin-mirror.gushao.club/docs/extra_service/SkinConversionPro)  
 
 ---
 
