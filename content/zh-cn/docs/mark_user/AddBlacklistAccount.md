@@ -26,9 +26,11 @@ toc: true
 
 ### 访问鉴权网址
 
-[二次鉴权 | 添加黑名单账号 →](https://skin-api-sq.gushao.club/Authentication/)
+[二次鉴权 | 添加黑名单账号 →](https://skin-api-sq.gushao.club/uploader_blacklist/)
 
 **注意事项：**  
 
 - 添加黑名单账号支持 **QQ、WX、小红书、微博** 四个平台。  
-- 需填写 **账号、上黑原因**，上黑后该账户将无法使用所有博主打标机服务！
+- 需填写 **账号、上黑原因、证据压缩包**，上黑后该账户将无法使用所有博主打标机服务！
+
+---
