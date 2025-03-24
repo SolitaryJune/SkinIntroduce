@@ -15,7 +15,7 @@ weight: 830
 
 ## 功能简介
 
-欢迎使用[在线上传文件打标 →](https://skin-api-sq.gushao.club/hand)。  
+欢迎使用[在线上传文件打标 →](https://skin.gushao.club/docs/extra_service/UploadHandWeb/)。  
 此功能支持皮肤（自动加密）、图片素材等文件的在线打标，并提供单邮箱批量打标和多邮箱一对一推送服务。
 
 ### 核心功能特点
