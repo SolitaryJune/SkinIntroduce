@@ -183,15 +183,13 @@
             }
         }
     </style>
-    <script async custom-element="amp-auto-ads"
-    src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-</script>
+    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
 </head>
 
 <body>
-    <amp-auto-ads type="adsense"
-        data-ad-client="ca-pub-9848692070506076">
-</amp-auto-ads>
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-9848692070506076">
+    </amp-auto-ads>
     <h1>文件上传加密</h1>
     <p class="subtitle">如果你想要加密性能更强，欢迎使用<a
             href="https://skin.gushao.club/docs/extra_service/skinencryptpro/">加密Pro</a>（支持IOS和Android）支持苹果无法拆包，安卓支持空包（安卓空包电脑360压缩无法解开）。
@@ -212,7 +210,7 @@
         <label for="fileInput">选择文件上传：</label>
         <input type="file" id="fileInput" />
         <button type="submit">开始处理文件</button>
-        
+
     </form>
     <div id="loading-spinner"></div>
 
@@ -228,14 +226,31 @@
     </div>
 
     <footer>
-        &copy; <span id="currentYear">2025</span>  GuShao's Skins Service | 由 <a href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=3567055800">孤傲</a> 强力驱动
+        &copy; <span id="currentYear">2025</span> GuShao's Skins Service | 由 <a
+            href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=3567055800">孤傲</a> 强力驱动
     </footer>
-     <script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
         // 检查来源，如果不是来自 skin.gushao.club 则重定向
         if (!document.referrer.includes('skin.gushao.club')) {
             window.location.href = 'https://skin.gushao.club';
         }
-
+        fetch('https://skin-api-sq.gushao.club/favicon.ico', { method: 'HEAD' })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('服务器返回非200状态');
+                }
+                console.log('服务器可用');
+            })
+            .catch(error => {
+                console.error('请求失败:', error);
+                Swal.fire({
+                    icon: 'error',
+                    title: '当前云服务器维护当中',
+                    text: '请稍后再试吧！',
+                    confirmButtonText: '我知道了'
+                });
+            });
         // 设置当前年份
         (function () {
             document.getElementById("currentYear").innerText = new Date().getFullYear();

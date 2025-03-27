@@ -218,11 +218,27 @@
 
     <footer>
         &copy; <span id="currentYear">2025</span> GuShao's Skins Service | 由 <a
-          href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=3567055800">孤傲</a> 强力驱动
-      </footer>
-    
-    
-     <script>
+            href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=3567055800">孤傲</a> 强力驱动
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        fetch('https://skin-api-sq.gushao.club/favicon.ico', { method: 'HEAD' })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('服务器返回非200状态');
+                }
+                console.log('服务器可用');
+            })
+            .catch(error => {
+                console.error('请求失败:', error);
+                Swal.fire({
+                    icon: 'error',
+                    title: '当前云服务器维护当中',
+                    text: '请稍后再试吧！',
+                    confirmButtonText: '我知道了'
+                });
+            });
         // 检查来源，如果不是来自 skin.gushao.club 则重定向
         if (!document.referrer.includes('skin.gushao.club')) {
             window.location.href = 'https://skin.gushao.club';
