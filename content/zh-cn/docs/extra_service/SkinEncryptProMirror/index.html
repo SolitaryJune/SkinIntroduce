@@ -223,22 +223,20 @@
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
-        fetch('https://skin-api-sq.gushao.club/favicon.ico', { method: 'HEAD' })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('服务器返回非200状态');
-                }
-                console.log('服务器可用');
-            })
-            .catch(error => {
-                console.error('请求失败:', error);
-                Swal.fire({
-                    icon: 'error',
-                    title: '当前云服务器维护当中',
-                    text: '请稍后再试吧！',
-                    confirmButtonText: '我知道了'
-                });
-            });
+        const img = new Image();
+    img.onload = () => {
+      console.log('服务器可用');
+    };
+    img.onerror = () => {
+      Swal.fire({
+        icon: 'error',
+        title: '当前云服务器维护当中',
+        text: '请稍后再试吧！',
+        confirmButtonText: '我知道了'
+      });
+    };
+    // 添加一个随机参数避免缓存
+    img.src = 'https://skin-api-sq.gushao.club/favicon.ico?_=' + Date.now();
         // 检查来源，如果不是来自 skin.gushao.club 则重定向
         if (!document.referrer.includes('skin.gushao.club')) {
             window.location.href = 'https://skin.gushao.club';
