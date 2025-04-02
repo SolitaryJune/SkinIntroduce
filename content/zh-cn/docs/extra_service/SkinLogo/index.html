@@ -1,224 +1,256 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>logo处理工具</title>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9848692070506076"
-     crossorigin="anonymous"></script>
+    <title>一键换Logo/底包切片合成/批量重命名/wx批量换素材</title>
     <script src="https://skin.gushao.club/utils/av-min.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9848692070506076"
+    crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background: linear-gradient(to right, #ece9e6, #ffffff);
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-        }
+      body {
+        font-family: "Roboto", sans-serif;
+        background: linear-gradient(to right, #ece9e6, #ffffff);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
 
-        h1 {
-            color: #333;
-            margin-bottom: 20px;
-            font-size: 2rem;
-            text-align: center;
-        }
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+        font-size: 2rem;
+        text-align: center;
+      }
 
-        form {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            width: 90%;
-            max-width: 400px;
-            margin-bottom: 20px;
-        }
+      form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 90%;
+        max-width: 400px;
+        margin-bottom: 20px;
+      }
 
-        label {
-            display: block;
-            margin-bottom: 10px;
-            font-weight: bold;
-            font-size: 1rem;
-            color: #555;
-        }
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 1rem;
+        color: #555;
+      }
 
-        input[type="text"], input[type="file"], select, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border-radius: 8px;
-            border: 1px solid #ddd;
-            box-sizing: border-box;
-            font-size: 1rem;
-            background-color: #f9f9f9;
-            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
-            transition: all 0.3s ease;
-        }
+      input[type="text"],
+      input[type="file"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        box-sizing: border-box;
+        font-size: 1rem;
+        background-color: #f9f9f9;
+        box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+      }
 
-        input[type="text"]:focus, input[type="file"]:focus, select:focus, textarea:focus {
-            border-color: #007bff;
-            box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
-            background-color: #fff;
-        }
+      input[type="text"]:focus,
+      input[type="file"]:focus,
+      select:focus,
+      textarea:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+        background-color: #fff;
+      }
 
-        button {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 1rem;
-            width: 100%;
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-        }
+      button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1rem;
+        width: 100%;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      }
 
-        button:hover {
-            background-color: #0056b3;
-            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
-        }
+      button:hover {
+        background-color: #0056b3;
+        box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+      }
 
-        #output {
-            margin-top: 20px;
-            color: #333;
-            font-size: 0.9rem;
-            text-align: center;
-        }
+      #output {
+        margin-top: 20px;
+        color: #333;
+        font-size: 0.9rem;
+        text-align: center;
+      }
 
-        .qr-section {
-            background-color: #fff;
-            padding: 15px;
-            border-radius: 12px;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            margin-bottom: 20px;
-            max-width: 400px;
-            width: 90%;
-        }
+      .qr-section {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin-bottom: 20px;
+        max-width: 400px;
+        width: 90%;
+      }
 
-        .qr-section h2 {
-            font-size: 1.25rem;
-            color: #007bff;
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+      .qr-section h2 {
+        font-size: 1.25rem;
+        color: #007bff;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
-        .qr-section h2 i {
-            margin-right: 5px;
-        }
+      .qr-section h2 i {
+        margin-right: 5px;
+      }
 
-        .qr-section p {
-            margin: 10px 0;
-            color: #555;
-            font-size: 0.85rem;
-        }
+      .qr-section p {
+        margin: 10px 0;
+        color: #555;
+        font-size: 0.85rem;
+      }
 
-        .qr-section img {
-            margin-top: 10px;
-            width: 80%;
-            max-width: 200px;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-        }
+      .qr-section img {
+        margin-top: 10px;
+        width: 80%;
+        max-width: 200px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      }
 
-        footer {
-            margin-top: 20px;
-            text-align: center;
-            color: #777;
-            font-size: 0.9rem;
-        }
+      footer {
+        margin-top: 20px;
+        text-align: center;
+        color: #777;
+        font-size: 0.9rem;
+      }
 
-        footer a {
-            color: #007bff;
-            text-decoration: none;
-        }
+      footer a {
+        color: #007bff;
+        text-decoration: none;
+      }
 
-        footer a:hover {
-            text-decoration: underline;
-        }
-
+      footer a:hover {
+        text-decoration: underline;
+      }
     </style>
-</head>
-<body>
-    <h1>logo处理工具</h1>
+  </head>
+  <body>
+    <h1>一键换Logo/底包切片合成/批量重命名/wx批量换素材</h1>
     <form>
-        <label for="authInput">输入授权码：</label>
-        <input type="text" id="authInput" placeholder="输入授权码（下方二维码发送“卡密登录”）">
-        <button type="button" onclick="authenticate()">验证</button>
+      <label for="authInput">输入授权码：</label>
+      <input
+        type="text"
+        id="authInput"
+        placeholder="输入授权码（下方二维码发送“卡密登陆”）"
+      />
+      <button type="button" onclick="authenticate()">验证</button>
     </form>
-    
-    <div id="mainContent" style="display:none;">
+
+    <div id="mainContent" style="display: none">
+      <form>
+        <label for="operationSelect">选择操作：</label>
+        <select id="operationSelect" onchange="updateContentVisibility()">
+          <option value="slice">切片</option>
+          <option value="merge">合成切片</option>
+          <option value="rename">
+            批量替换（重命名）图片|多图按顺序替换名字
+          </option>
+          <option value="duplicate">
+            复制图片|单图生成多文件同内容（输入框输入文件名）
+          </option>
+          <option value="duplicateWithFiles">
+            复制图片|单图生成多文件同内容（上传要修改的文件）
+          </option>
+        </select>
+      </form>
+
+      <div id="sliceContent" style="display: none">
         <form>
-            <label for="operationSelect">选择操作：</label>
-            <select id="operationSelect" onchange="updateContentVisibility()">
-                <option value="slice">切片</option>
-                <option value="merge">合成切片</option>
-                <option value="rename">批量替换图标名称|多图按顺序替换名字</option>
-                <option value="duplicate">单图批量更改名称|单图生成多文件同内容（输入框输入文件名）</option>
-                <option value="duplicateWithFiles">图标替换|单图生成多文件同内容（上传要修改的文件）</option>
-            </select>
+          <label for="imageInput">选择图片文件：</label>
+          <input type="file" id="imageInput" accept="image/*" />
+          <label for="tilInput">选择 TIL 文件：</label>
+          <input type="file" id="tilInput" accept=".til" />
+          <button type="button" onclick="processSlice()">处理切片</button>
         </form>
+      </div>
 
-        <div id="sliceContent" style="display:none;">
-            <form>
-                <label for="imageInput">选择图片文件：</label>
-                <input type="file" id="imageInput" accept="image/*">
-                <label for="tilInput">选择 TIL 文件：</label>
-                <input type="file" id="tilInput" accept=".til">
-                <button type="button" onclick="processSlice()">处理切片</button>
-            </form>
-        </div>
+      <div id="mergeContent" style="display: none">
+        <form>
+          <label for="mergeZipInput">选择 Zip 文件：</label>
+          <input type="file" id="mergeZipInput" accept=".zip" />
+          <label for="mergeDirection">合成方向：</label>
+          <select id="mergeDirection">
+            <option value="horizontal">横向合成</option>
+            <option value="vertical">纵向合成</option>
+          </select>
+          <label for="generateTil">生成TIL文件：</label>
+          <input type="checkbox" id="generateTil" checked />
+          <button type="button" onclick="processMerge()">合成切片</button>
+        </form>
+      </div>
 
-        <div id="mergeContent" style="display:none;">
-            <form>
-                <label for="mergeZipInput">选择 Zip 文件：</label>
-                <input type="file" id="mergeZipInput" accept=".zip">
-                <label for="mergeDirection">合成方向：</label>
-                <select id="mergeDirection">
-                    <option value="horizontal">横向合成</option>
-                    <option value="vertical">纵向合成</option>
-                </select>
-                <button type="button" onclick="processMerge()">合成切片</button>
-            </form>
-        </div>
-
-        <div id="renameContent" style="display:none;">
-            <form>
-                <label for="renameImageInput">选择图片文件（多选）：</label>
-                <input type="file" id="renameImageInput" accept="image/*" multiple>
-                <label for="newNames">输入新文件名：</label>
-                <textarea id="newNames" placeholder="输入新文件名，每行一个"></textarea>
-                <button type="button" onclick="processRename()">批量替换（重命名）图片|多图按顺序替换名字</button>
-            </form>
-        </div>
+      <div id="renameContent" style="display: none">
+        <form>
+          <label for="renameImageInput">选择图片文件（多选）：</label>
+          <input type="file" id="renameImageInput" accept="image/*" multiple />
+          <label for="newNames">输入新文件名：</label>
+          <textarea
+            id="newNames"
+            placeholder="输入新文件名，每行一个"
+          ></textarea>
+          <button type="button" onclick="processRename()">
+            批量替换（重命名）图片|多图按顺序替换名字
+          </button>
+        </form>
+      </div>
     </div>
-    <div id="duplicateContent" style="display:none;">
-        <form>
-            <label for="duplicateImageInput">选择图片文件：</label>
-            <input type="file" id="duplicateImageInput" accept="image/*">
-            <label for="duplicateNames">输入新文件名：</label>
-            <textarea id="duplicateNames" placeholder="输入新文件名，每行一个"></textarea>
-            <button type="button" onclick="processDuplicate()">复制图片|单图生成多文件同内容</button>
-        </form>
+    <div id="duplicateContent" style="display: none">
+      <form>
+        <label for="duplicateImageInput">选择图片文件：</label>
+        <input type="file" id="duplicateImageInput" accept="image/*" />
+        <label for="duplicateNames">输入新文件名：</label>
+        <textarea
+          id="duplicateNames"
+          placeholder="输入新文件名，每行一个"
+        ></textarea>
+        <button type="button" onclick="processDuplicate()">
+          复制图片|单图生成多文件同内容
+        </button>
+      </form>
     </div>
-    <div id="duplicateWithFilesContent" style="display:none;">
-        <form>
-            <label for="mainImageInput">选择图片文件（支持多选）：</label>
-            <input type="file" id="mainImageInput" accept="image/*" multiple>
-            <label for="nameFilesInput">选择文件名文件（多选）：</label>
-            <input type="file" id="nameFilesInput" multiple>
-            <button type="button" onclick="processDuplicateWithFiles()">使用文件名复制图片</button>
-        </form>
+    <div id="duplicateWithFilesContent" style="display: none">
+      <form>
+        <label for="mainImageInput">选择图片文件：</label>
+        <input type="file" id="mainImageInput" accept="image/*" />
+        <label for="nameFilesInput">选择文件名文件（多选）：</label>
+        <input type="file" id="nameFilesInput" multiple />
+        <button type="button" onclick="processDuplicateWithFiles()">
+          使用文件名复制图片
+        </button>
+      </form>
     </div>
 
     <div id="output"></div>
