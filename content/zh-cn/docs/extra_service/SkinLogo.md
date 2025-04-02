@@ -1,5 +1,5 @@
 ---
-title: "一键换Logo/切片/批量重命名/wx批量换素材"
+title: "一键换Logo/底包切片合成/批量重命名/wx批量换素材"
 description: "作者 ｜ 孤傲"
 lead: "作者 ｜ 孤傲"
 date: 2021-08-19T08:49:31+00:00
@@ -22,13 +22,14 @@ weight: 830
 
 ### 功能入口
 
-立即使用 → [一键换Logo/切片/批量重命名/wx批量换素材](https://skin.gushao.club/docs/extra_service/SkinLogo)
+立即使用 → [一键换Logo/底包切片合成/批量重命名/wx批量换素材](https://skin.gushao.club/docs/extra_service/SkinLogo)
 
 ---
 
 ### 核心功能
 
-- **一键换Logo**：支持切片、合成切片  
+- **一键换Logo**：支持切片、合成切片 
+- **底包切片合成**：支持导入til切片、合成切片并导出til
 - **批量重命名**：输入（上传）命名文件名，输出多张名字不同但内容相同的图片  
 - **批量换素材**：批量替换图片（定制v/logo等等）
 
