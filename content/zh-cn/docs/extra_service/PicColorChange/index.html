@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>图片颜色处理工具</title>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9848692070506076"
-     crossorigin="anonymous"></script>
+    <title>一键改色</title>
     <!-- 依赖引入 -->
     <script src="https://skin.gushao.club/utils/av-min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9848692070506076"
+    crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
     <link
       rel="stylesheet"
@@ -295,7 +295,11 @@
         </div>
 
         <!-- 白度阈值调节 -->
-        <div class="threshold-control" id="thresholdControl" style="display: none">
+        <div
+          class="threshold-control"
+          id="thresholdControl"
+          style="display: none"
+        >
           <label>白度阈值：</label>
           <input
             type="range"
@@ -318,14 +322,17 @@
         <!-- 色相偏移滑杆 -->
         <div class="threshold-control" id="hueControl" style="display: none">
           <label>色相偏移：</label>
-          <input
-            type="range"
-            id="hueShiftRange"
-            min="0"
-            max="360"
-            value="0"
-          />
+          <input type="range" id="hueShiftRange" min="0" max="360" value="0" />
           <span id="hueShiftValue">0</span>°
+          <!-- 添加数字输入框 -->
+          <input 
+            type="number" 
+            id="hueShiftInput" 
+            min="0" 
+            max="360" 
+            value="0" 
+            style="width: 60px; margin-left: 10px;"
+          />
         </div>
 
         <!-- 处理进度 -->
