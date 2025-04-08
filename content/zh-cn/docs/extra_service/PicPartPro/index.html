@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>素材分割Pro</title>
-    <script src="https://skin.gushao.club/utils/av-min.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9848692070506076"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
-    <script src="https://unpkg.com/ag-psd"></script>
+    <script src="https://unpkg.com/psd.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -124,10 +125,9 @@
         <button onclick="authenticate()">验证授权</button>
     </div>
 
-    <!-- 主功能区域（默认隐藏） -->
     <div id="mainSection">
         <div class="control-panel">
-            <label>透明度阈值: <span id="thresholdValue">10</span></label>
+            <label>分割识别精度: <span id="thresholdValue">10</span></label>
             <input type="range" id="thresholdSlider" min="0" max="255" value="10">
         </div>
         <div class="control-panel">
@@ -141,13 +141,25 @@
         <div class="spinner"></div>
         <p>正在处理中，请稍候...</p>
     </div>
+
     <footer>
         &copy; <span id="currentYear">2025</span> GuShao's Skins Service | 由 <a
-          href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=3567055800">孤傲</a> 强力驱动
-      </footer>
-    
-    
-       <script>
+            href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=3567055800">孤傲</a> 强力驱动
+    </footer>
+    <script>
+        (function () {
+            const currentHost = window.location.host;
+            const scriptUrl = currentHost === 'skin-mirror.gushao.club'
+                ? 'https://skin-mirror.gushao.club/utils/av-min.js'
+                : 'https://skin.gushao.club/utils/av-min.js';
+
+            const script = document.createElement('script');
+            script.src = scriptUrl;
+            document.head.appendChild(script);
+        })();
+    </script>
+
+    <script>
         // 检查来源，如果不是来自 skin.gushao.club 则重定向
         if (!document.referrer.includes('skin.gushao.club')) {
             window.location.href = 'https://skin.gushao.club';
@@ -156,6 +168,18 @@
         // 设置当前年份
         (function () {
             document.getElementById("currentYear").innerText = new Date().getFullYear();
+        })();
+    </script>
+    <script>
+        (function () {
+            const currentHost = window.location.host;
+            const scriptUrl = currentHost === 'skin-mirror.gushao.club'
+                ? 'https://skin-mirror.gushao.club/utils/av-min.js'
+                : 'https://skin.gushao.club/utils/av-min.js';
+
+            const script = document.createElement('script');
+            script.src = scriptUrl;
+            document.head.appendChild(script);
         })();
     </script>
     <script type="text/javascript">
