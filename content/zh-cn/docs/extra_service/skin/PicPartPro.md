@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "extra_service/skin"
+    parent: "skin"
 toc: true
 weight: 830
 ---
