@@ -19,7 +19,7 @@
 [[docs]]
   name = "额外功能|Logo/前景等"
   weight = 30
-  identifier = "extra_service_skin"
+  identifier = "extra_service"
   url = "/docs/extra_service/skin/"
 
 [[docs]]
