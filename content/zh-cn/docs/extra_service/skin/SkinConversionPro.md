@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "extra_service"
+    parent: "extra_service/skin"
 toc: true
 weight: 830
 ---
@@ -20,9 +20,9 @@ weight: 830
 
 #### 快速入口  
 
-- [转系统Pro 主页](https://skin.gushao.club/docs/extra_service/SkinConversionPro/)  
-- [备用入口](https://skin.gushao.club/docs/extra_service/SkinConversionProMirror)  
-- [备用入口2](https://skin-mirror.gushao.club/docs/extra_service/SkinConversionPro)  
+- [转系统Pro 主页](https://skin.gushao.club/docs/extra_service/skin/SkinConversionPro/)  
+- [备用入口](https://skin.gushao.club/docs/extra_service/skin/SkinConversionProMirror)  
+- [备用入口2](https://skin-mirror.gushao.club/docs/extra_service/skin/SkinConversionPro)  
 
 ---
 

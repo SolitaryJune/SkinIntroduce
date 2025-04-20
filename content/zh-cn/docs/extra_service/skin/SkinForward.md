@@ -7,7 +7,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "extra_service"
+    parent: "extra_service/skin"
 toc: true
 weight: 830
 ---
@@ -24,7 +24,7 @@ weight: 830
   [立即观看 →](https://url69.ctfile.com/d/22031369-65046580-3246ae?p=WXJuneOver24)
 
 - **功能详情页**  
-  [跳转打前景Pro →](https://skin.gushao.club/docs/extra_service/SkinForwardPro/)
+  [跳转打前景Pro →](https://skin.gushao.club/docs/extra_service/skin/SkinForwardPro/)
 
 > **重要提示**  
 > 若遇到卡密过期情况，别担心，这属于正常现象，重新获取卡密（授权密钥）即可继续使用，无需进行二次重复授权。

@@ -15,7 +15,7 @@ weight: 830
 
 ### 皮肤加密Pro
 
-如果你想要加密性能更强，欢迎使用[皮肤加密Pro →](https://skin.gushao.club/docs/extra_service/skinencryptpro/) 。
+如果你想要加密性能更强，欢迎使用[皮肤加密Pro →](https://skin.gushao.club/docs/extra_service/skin/skinencryptpro/) 。
 
 ### Pro与Free功能对比一览
 

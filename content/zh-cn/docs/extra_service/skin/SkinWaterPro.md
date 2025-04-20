@@ -8,14 +8,14 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "extra_service"
+    parent: "extra_service/skin"
 toc: true
 weight: 830
 ---
 
 ### 图片水印Pro 定价45r永久（含图命灵变Pro｜素材分割Pro，支持所有设备）
 
-如果你想要更多自定义，欢迎使用[图片水印Pro →](https://skin.gushao.club/docs/extra_service/SkinWaterPro/)。
+如果你想要更多自定义，欢迎使用[图片水印Pro →](https://skin.gushao.club/docs/extra_service/skin/SkinWaterPro/)。
 
 ---
 

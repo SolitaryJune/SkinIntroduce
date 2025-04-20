@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "extra_service"
+    parent: "extra_service/skin"
 toc: true
 weight: 830
 ---
@@ -19,7 +19,7 @@ weight: 830
 [使用额外功能 →](https://skin.gushao.club/docs/mark_user/useextraservice/)
 
 **功能入口**  
-[一键改色 →](https://skin.gushao.club/docs/extra_service/PicColorChange/)
+[一键改色 →](https://skin.gushao.club/docs/extra_service/skin/PicColorChange/)
 
 ---
 

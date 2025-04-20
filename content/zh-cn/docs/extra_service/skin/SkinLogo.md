@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "extra_service"
+    parent: "extra_service/skin"
 toc: true
 weight: 830
 ---
@@ -22,7 +22,7 @@ weight: 830
 
 ### 功能入口
 
-立即使用 → [一键换Logo/底包切片合成/批量重命名/wx批量换素材](https://skin.gushao.club/docs/extra_service/SkinLogo)
+立即使用 → [一键换Logo/底包切片合成/批量重命名/wx批量换素材](https://skin.gushao.club/docs/extra_service/skin/SkinLogo)
 
 ---
 
@@ -57,7 +57,7 @@ weight: 830
 
 **Q:** 如何解决素材/Logo无法替换的问题？  
 **A:**  
-方案一：使用 **[图命灵变Pro](https://skin.gushao.club/docs/extra_service/picmagicpro/)** 调整替换尺寸  
+方案一：使用 **[图命灵变Pro](https://skin.gushao.club/docs/extra_service/skin/picmagicpro/)** 调整替换尺寸  
 方案二：删除不合规的素材/Logo  
 
 ---

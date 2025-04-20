@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "extra_service"
+    parent: "extra_service/skin"
 toc: true
 weight: 830
 ---
@@ -21,9 +21,9 @@ weight: 830
 
 #### 功能入口
 
-- 官方通道：[皮肤加密Pro](https://skin.gushao.club/docs/extra_service/SkinEncryptPro)
-- 备用通道：[皮肤加密Pro Mirror](https://skin.gushao.club/docs/extra_service/SkinEncryptProMirror)
-- 备用通道2：[皮肤加密Pro Mirror2](https://skin-mirror.gushao.club/docs/extra_service/SkinEncryptPro)
+- 官方通道：[皮肤加密Pro](https://skin.gushao.club/docs/extra_service/skin/SkinEncryptPro)
+- 备用通道：[皮肤加密Pro Mirror](https://skin.gushao.club/docs/extra_service/skin/SkinEncryptProMirror)
+- 备用通道2：[皮肤加密Pro Mirror2](https://skin-mirror.gushao.club/docs/extra_service/skin/SkinEncryptPro)
 
 > **自动授权提示**  
 > 购买后立即生效，无需手动激活
