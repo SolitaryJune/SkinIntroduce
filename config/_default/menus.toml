@@ -20,7 +20,7 @@
   name = "额外功能|Logo/前景等"
   weight = 30
   identifier = "extra_service"
-  url = "/docs/extra_service/skin/"
+  url = "/docs/extra_service/"
 
 [[docs]]
   name = "公益功能|加密/转系统等"
