@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "GuShao's Skin"
+title = "GuShao's Beautify"
 titleSeparator = "-"
 titleAddition = "文档"
-description = "GuShao's Skin"
+description = "GuShao's Beautify"
 
 ## Open Graph
 images = ["Logo.png"]
@@ -12,7 +12,7 @@ ogLocale = "zh_cn"
 ogImageHeight = "320"
 ogImageWidth = "640"
 domainTLD = "skin.gushao.club"
-titleHome = "GuShao's Skin Doc"
+titleHome = "GuShao's Beautify Doc"
 
 ## Twitter Cards
 twitterSite = ""
@@ -51,8 +51,8 @@ portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 
 # Footer
-footer = "CL-EULA | Copyright (c) 2021 - {year} GuShao's Skin Organization"
-copyright = "Copyright (c) 2021 - {year} GuShao's Skin Organization"
+footer = "CL-EULA | Copyright (c) 2021 - {year} GuShao's Beautify Organization"
+copyright = "Copyright (c) 2021 - {year} GuShao's Beautify Organization"
 
 # Alert
 alert = false
@@ -64,8 +64,8 @@ editPage = true
 
 # Contributors
 githubContributors = false
-githubUser = "GuShao's Skin"
-githubRepo = "GuShao's Skin"
+githubUser = "GuShao's Beautify"
+githubRepo = "GuShao's Beautify"
 githubDocRepo = "solitaryjune.github.io"
 githubDocTree = "main"
 githubContributorsAPI = ""
