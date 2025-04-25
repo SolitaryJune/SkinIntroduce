@@ -1,5 +1,5 @@
 ---
-title: "GuShao's Skins Service"
+title: "GuShao's Beautify Service"
 description: "皮肤服务"
 lead: "一款好用的线上皮肤服务 —— 你可通过本节对《孤傲皮肤服务》的内容进行快速预览。"
 date: 2021-08-19T08:48:57+00:00
